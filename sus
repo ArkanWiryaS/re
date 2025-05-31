@@ -1,0 +1,174 @@
+# TA07 - SUS User Testing Responses
+
+**System Usability Scale - Verdant Platform**
+**Kelompok 13 - Kelas LB83**
+
+---
+
+## **User 1: Startup Founder (Innovator)**
+
+**Background:** Tech entrepreneur, 28 tahun, familiar dengan platform digital
+
+| No  | Pertanyaan                                                                          | STS(1) | TS(2) | RG(3) | ST(4) | SS(5) | Alasan (untuk jawaban 3,4,5 pada nomor genap)       |
+| --- | ----------------------------------------------------------------------------------- | ------ | ----- | ----- | ----- | ----- | --------------------------------------------------- |
+| 1   | Saya berpikir akan menggunakan sistem ini lagi.                                     |        |       |       | ✓     |       |                                                     |
+| 2   | Saya merasa sistem ini rumit untuk digunakan.                                       |        | ✓     |       |       |       | Platform intuitif, navigation jelas, mudah dipahami |
+| 3   | Saya merasa sistem ini mudah digunakan.                                             |        |       |       | ✓     |       |                                                     |
+| 4   | Saya membutuhkan bantuan dari orang lain atau teknisi dalam menggunakan sistem ini. |        | ✓     |       |       |       | Bisa menggunakan sendiri tanpa bantuan teknis       |
+| 5   | Saya merasa fitur-fitur sistem ini berjalan dengan semestinya.                      |        |       | ✓     |       |       |                                                     |
+| 6   | Saya merasa ada banyak hal yang tidak konsisten pada sistem ini.                    |        | ✓     |       |       |       | Design consistency cukup baik across pages          |
+| 7   | Saya merasa orang lain akan memahami cara menggunakan sistem ini dengan cepat.      |        |       |       | ✓     |       |                                                     |
+| 8   | Saya merasa sistem ini membingungkan.                                               |        | ✓     |       |       |       | Layout logis dan flow yang masuk akal               |
+| 9   | Saya merasa tidak ada hambatan dalam menggunakan sistem ini.                        |        |       | ✓     |       |       |                                                     |
+| 10  | Saya perlu membiasakan diri terlebih dahulu sebelum menggunakan sistem ini.         |        |       | ✓     |       |       |                                                     |
+
+---
+
+## **User 2: Impact Investor (Investor)**
+
+**Background:** Professional investor, 35 tahun, moderate tech experience
+
+| No  | Pertanyaan                                                                          | STS(1) | TS(2) | RG(3) | ST(4) | SS(5) | Alasan (untuk jawaban 3,4,5 pada nomor genap)             |
+| --- | ----------------------------------------------------------------------------------- | ------ | ----- | ----- | ----- | ----- | --------------------------------------------------------- |
+| 1   | Saya berpikir akan menggunakan sistem ini lagi.                                     |        |       |       |       | ✓     |                                                           |
+| 2   | Saya merasa sistem ini rumit untuk digunakan.                                       |        |       | ✓     |       |       | Beberapa bagian perlu explanation lebih, terutama AI demo |
+| 3   | Saya merasa sistem ini mudah digunakan.                                             |        |       |       | ✓     |       |                                                           |
+| 4   | Saya membutuhkan bantuan dari orang lain atau teknisi dalam menggunakan sistem ini. |        |       | ✓     |       |       | AI demo agak teknis, perlu guidance untuk fitur advanced  |
+| 5   | Saya merasa fitur-fitur sistem ini berjalan dengan semestinya.                      |        |       |       | ✓     |       |                                                           |
+| 6   | Saya merasa ada banyak hal yang tidak konsisten pada sistem ini.                    | ✓      |       |       |       |       | Design sangat konsisten dan professional                  |
+| 7   | Saya merasa orang lain akan memahami cara menggunakan sistem ini dengan cepat.      |        |       |       | ✓     |       |                                                           |
+| 8   | Saya merasa sistem ini membingungkan.                                               |        |       | ✓     |       |       | Beberapa terminology investment bisa lebih simple         |
+| 9   | Saya merasa tidak ada hambatan dalam menggunakan sistem ini.                        |        |       | ✓     |       |       |                                                           |
+| 10  | Saya perlu membiasakan diri terlebih dahulu sebelum menggunakan sistem ini.         |        |       |       | ✓     |       |                                                           |
+
+---
+
+## **User 3: Healthcare Professional (Innovator)**
+
+**Background:** Dokter, 42 tahun, basic tech skills
+
+| No  | Pertanyaan                                                                          | STS(1) | TS(2) | RG(3) | ST(4) | SS(5) | Alasan (untuk jawaban 3,4,5 pada nomor genap)           |
+| --- | ----------------------------------------------------------------------------------- | ------ | ----- | ----- | ----- | ----- | ------------------------------------------------------- |
+| 1   | Saya berpikir akan menggunakan sistem ini lagi.                                     |        |       |       | ✓     |       |                                                         |
+| 2   | Saya merasa sistem ini rumit untuk digunakan.                                       |        |       |       | ✓     |       | Form submission agak panjang, AI demo perlu tutorial    |
+| 3   | Saya merasa sistem ini mudah digunakan.                                             |        |       | ✓     |       |       |                                                         |
+| 4   | Saya membutuhkan bantuan dari orang lain atau teknisi dalam menggunakan sistem ini. |        |       |       | ✓     |       | Perlu bantuan untuk mengoperasikan AI health monitoring |
+| 5   | Saya merasa fitur-fitur sistem ini berjalan dengan semestinya.                      |        |       |       | ✓     |       |                                                         |
+| 6   | Saya merasa ada banyak hal yang tidak konsisten pada sistem ini.                    |        | ✓     |       |       |       | Interface consistent, tidak ada confusion               |
+| 7   | Saya merasa orang lain akan memahami cara menggunakan sistem ini dengan cepat.      |        |       | ✓     |       |       |                                                         |
+| 8   | Saya merasa sistem ini membingungkan.                                               |        |       | ✓     |       |       | AI terminology agak technical untuk non-IT background   |
+| 9   | Saya merasa tidak ada hambatan dalam menggunakan sistem ini.                        |        |       | ✓     |       |       |                                                         |
+| 10  | Saya perlu membiasakan diri terlebih dahulu sebelum menggunakan sistem ini.         |        |       |       | ✓     |       |                                                         |
+
+---
+
+## **User 4: University Student (Innovator)**
+
+**Background:** Mahasiswa teknik, 22 tahun, high tech proficiency
+
+| No  | Pertanyaan                                                                          | STS(1) | TS(2) | RG(3) | ST(4) | SS(5) | Alasan (untuk jawaban 3,4,5 pada nomor genap) |
+| --- | ----------------------------------------------------------------------------------- | ------ | ----- | ----- | ----- | ----- | --------------------------------------------- |
+| 1   | Saya berpikir akan menggunakan sistem ini lagi.                                     |        |       |       |       | ✓     |                                               |
+| 2   | Saya merasa sistem ini rumit untuk digunakan.                                       | ✓      |       |       |       |       | Interface sangat user-friendly dan modern     |
+| 3   | Saya merasa sistem ini mudah digunakan.                                             |        |       |       |       | ✓     |                                               |
+| 4   | Saya membutuhkan bantuan dari orang lain atau teknisi dalam menggunakan sistem ini. | ✓      |       |       |       |       | Semua fitur mudah dipahami tanpa bantuan      |
+| 5   | Saya merasa fitur-fitur sistem ini berjalan dengan semestinya.                      |        |       |       |       | ✓     |                                               |
+| 6   | Saya merasa ada banyak hal yang tidak konsisten pada sistem ini.                    | ✓      |       |       |       |       | Design system sangat konsisten                |
+| 7   | Saya merasa orang lain akan memahami cara menggunakan sistem ini dengan cepat.      |        |       |       |       | ✓     |                                               |
+| 8   | Saya merasa sistem ini membingungkan.                                               | ✓      |       |       |       |       | Interface clear dan straightforward           |
+| 9   | Saya merasa tidak ada hambatan dalam menggunakan sistem ini.                        |        |       |       | ✓     |       |                                               |
+| 10  | Saya perlu membiasakan diri terlebih dahulu sebelum menggunakan sistem ini.         |        | ✓     |       |       |       |                                               |
+
+---
+
+## **User 5: Corporate Executive (Investor)**
+
+**Background:** VP Innovation di perusahaan besar, 45 tahun, moderate tech skills
+
+| No  | Pertanyaan                                                                          | STS(1) | TS(2) | RG(3) | ST(4) | SS(5) | Alasan (untuk jawaban 3,4,5 pada nomor genap)               |
+| --- | ----------------------------------------------------------------------------------- | ------ | ----- | ----- | ----- | ----- | ----------------------------------------------------------- |
+| 1   | Saya berpikir akan menggunakan sistem ini lagi.                                     |        |       |       | ✓     |       |                                                             |
+| 2   | Saya merasa sistem ini rumit untuk digunakan.                                       |        |       | ✓     |       |       | Interface OK tapi investment process bisa lebih streamlined |
+| 3   | Saya merasa sistem ini mudah digunakan.                                             |        |       |       | ✓     |       |                                                             |
+| 4   | Saya membutuhkan bantuan dari orang lain atau teknisi dalam menggunakan sistem ini. |        |       | ✓     |       |       | AI demo perlu explanation, tapi overall manageable          |
+| 5   | Saya merasa fitur-fitur sistem ini berjalan dengan semestinya.                      |        |       |       | ✓     |       |                                                             |
+| 6   | Saya merasa ada banyak hal yang tidak konsisten pada sistem ini.                    |        | ✓     |       |       |       | Professional dan consistent presentation                    |
+| 7   | Saya merasa orang lain akan memahami cara menggunakan sistem ini dengan cepat.      |        |       | ✓     |       |       |                                                             |
+| 8   | Saya merasa sistem ini membingungkan.                                               |        | ✓     |       |       |       | Clear information hierarchy dan good UX                     |
+| 9   | Saya merasa tidak ada hambatan dalam menggunakan sistem ini.                        |        |       | ✓     |       |       |                                                             |
+| 10  | Saya perlu membiasakan diri terlebih dahulu sebelum menggunakan sistem ini.         |        |       | ✓     |       |       |                                                             |
+
+---
+
+## **User 6: Environmental Scientist (Innovator)**
+
+**Background:** Researcher, 30 tahun, average tech experience
+
+| No  | Pertanyaan                                                                          | STS(1) | TS(2) | RG(3) | ST(4) | SS(5) | Alasan (untuk jawaban 3,4,5 pada nomor genap)                 |
+| --- | ----------------------------------------------------------------------------------- | ------ | ----- | ----- | ----- | ----- | ------------------------------------------------------------- |
+| 1   | Saya berpikir akan menggunakan sistem ini lagi.                                     |        |       |       | ✓     |       |                                                               |
+| 2   | Saya merasa sistem ini rumit untuk digunakan.                                       |        |       | ✓     |       |       | Form cukup panjang, tapi acceptable untuk comprehensive input |
+| 3   | Saya merasa sistem ini mudah digunakan.                                             |        |       |       | ✓     |       |                                                               |
+| 4   | Saya membutuhkan bantuan dari orang lain atau teknisi dalam menggunakan sistem ini. |        |       | ✓     |       |       | AI demo butuh guidance, form submission straightforward       |
+| 5   | Saya merasa fitur-fitur sistem ini berjalan dengan semestinya.                      |        |       | ✓     |       |       |                                                               |
+| 6   | Saya merasa ada banyak hal yang tidak konsisten pada sistem ini.                    |        | ✓     |       |       |       | Consistent design language throughout                         |
+| 7   | Saya merasa orang lain akan memahami cara menggunakan sistem ini dengan cepat.      |        |       | ✓     |       |       |                                                               |
+| 8   | Saya merasa sistem ini membingungkan.                                               |        |       | ✓     |       |       | Some technical aspects need clarification                     |
+| 9   | Saya merasa tidak ada hambatan dalam menggunakan sistem ini.                        |        |       | ✓     |       |       |                                                               |
+| 10  | Saya perlu membiasakan diri terlebih dahulu sebelum menggunakan sistem ini.         |        |       | ✓     |       |       |                                                               |
+
+---
+
+## **User 7: Small Business Owner (Investor)**
+
+**Background:** Owner of SME, 38 tahun, basic-moderate tech skills
+
+| No  | Pertanyaan                                                                          | STS(1) | TS(2) | RG(3) | ST(4) | SS(5) | Alasan (untuk jawaban 3,4,5 pada nomor genap)                  |
+| --- | ----------------------------------------------------------------------------------- | ------ | ----- | ----- | ----- | ----- | -------------------------------------------------------------- |
+| 1   | Saya berpikir akan menggunakan sistem ini lagi.                                     |        |       |       | ✓     |       |                                                                |
+| 2   | Saya merasa sistem ini rumit untuk digunakan.                                       |        |       | ✓     |       |       | Investment terms agak complex, perlu more explanation          |
+| 3   | Saya merasa sistem ini mudah digunakan.                                             |        |       | ✓     |       |       |                                                                |
+| 4   | Saya membutuhkan bantuan dari orang lain atau teknisi dalam menggunakan sistem ini. |        |       |       | ✓     |       | Need help understanding investment process dan AI capabilities |
+| 5   | Saya merasa fitur-fitur sistem ini berjalan dengan semestinya.                      |        |       | ✓     |       |       |                                                                |
+| 6   | Saya merasa ada banyak hal yang tidak konsisten pada sistem ini.                    |        | ✓     |       |       |       | Design professional dan consistent                             |
+| 7   | Saya merasa orang lain akan memahami cara menggunakan sistem ini dengan cepat.      |        |       | ✓     |       |       |                                                                |
+| 8   | Saya merasa sistem ini membingungkan.                                               |        |       | ✓     |       |       | Investment criteria explanation could be clearer               |
+| 9   | Saya merasa tidak ada hambatan dalam menggunakan sistem ini.                        |        |       | ✓     |       |       |                                                                |
+| 10  | Saya perlu membiasakan diri terlebih dahulu sebelum menggunakan sistem ini.         |        |       |       | ✓     |       |                                                                |
+
+---
+
+## **Summary of User Responses**
+
+### **User Profile Distribution:**
+
+- **Innovators:** 4 users (Startup Founder, Healthcare Professional, University Student, Environmental Scientist)
+- **Investors:** 3 users (Impact Investor, Corporate Executive, Small Business Owner)
+
+### **Tech Proficiency Levels:**
+
+- **High:** 1 user (University Student)
+- **Moderate:** 4 users (Startup Founder, Impact Investor, Corporate Executive, Environmental Scientist)
+- **Basic:** 2 users (Healthcare Professional, Small Business Owner)
+
+### **Common Feedback Themes:**
+
+✅ **Positive Aspects:**
+
+- Consistent design dan professional appearance
+- Clear navigation dan logical flow
+- Good visual hierarchy
+
+⚠️ **Areas for Improvement:**
+
+- AI demo needs better guidance/tutorial
+- Investment terminology could be simpler
+- Form submissions could be more streamlined
+- Technical features need contextual help
+
+### **Next Steps:**
+
+1. Input responses ke SUS calculator: https://bit.ly/CalcSUS
+2. Analyze overall usability score
+3. Create UEQ questionnaire responses
+4. Identify priority improvements based on user feedback
