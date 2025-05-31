@@ -1,101 +1,116 @@
-# BAB I: PENDAHULUAN
+# LAPORAN AKHIR PROYEK HCI
 
-## 1.1 Latar Belakang
+**Platform Verdant: Sustainable Industrial Development dengan AI-Powered Health Monitoring**
 
-### 1.1.1 Era Industri 4.0 dan Sustainable Development Goals
+**Kelompok 13 - Kelas LB83**  
+**Mata Kuliah: Human Computer Interaction**
 
-Dalam era Industri 4.0 yang berkembang pesat, dunia menghadapi tantangan besar dalam mencapai pembangunan berkelanjutan. Sustainable Development Goals (SDGs) yang ditetapkan oleh Perserikatan Bangsa-Bangsa menekankan pentingnya inovasi dan pembangunan infrastruktur yang berkelanjutan, khususnya dalam SDG 9: Industry, Innovation, and Infrastructure. Target utama SDG 9 mencakup pembangunan infrastruktur yang tangguh, promosi industrialisasi inklusif dan berkelanjutan, serta mendorong inovasi teknologi yang dapat memberikan dampak positif bagi masyarakat.
+---
 
-Transformasi digital yang terjadi secara masif telah membuka peluang besar bagi integrasi teknologi dalam pembangunan berkelanjutan. Namun, implementasi yang efektif memerlukan kolaborasi yang terstruktur antara berbagai stakeholder dalam ekosistem inovasi, terutama antara mereka yang memiliki ide inovatif dan mereka yang memiliki kemampuan untuk merealisasikan ide tersebut melalui investasi.
+# BAB 1: IDENTIFIKASI MASALAH DAN ANALISIS PENGGUNA
 
-### 1.1.2 Gap dalam Ekosistem Inovasi-Investasi
+## 1.1 Latar Belakang Masalah
 
-Terdapat kesenjangan signifikan antara kebutuhan inovasi berkelanjutan dengan platform yang memfasilitasi kolaborasi antara innovators dan investors dalam ekosistem yang terintegrasi. Banyak inovator, terutama startup teknologi, peneliti kesehatan, dan mahasiswa, memiliki ide-ide revolusioner untuk mengatasi masalah industrial dan kesehatan, namun kesulitan mengakses jaringan investor yang tepat dan platform yang dapat mendemonstrasikan potensi teknologi mereka secara efektif.
+Dalam era transformasi digital saat ini, industri berkelanjutan menghadapi tantangan kompleks yang memerlukan solusi teknologi terintegrasi. Sustainable Development Goal (SDG) ke-9 yang berfokus pada "Industry, Innovation and Infrastructure" menekankan pentingnya membangun infrastruktur yang tangguh, mempromosikan industrialisasi yang inklusif dan berkelanjutan, serta mendorong inovasi. Namun, implementasi prinsip-prinsip sustainabilitas dalam industri masih menghadapi berbagai hambatan signifikan.
 
-Di sisi lain, investor yang fokus pada impact investing dan teknologi berkelanjutan seringkali menghadapi kendala dalam menemukan proyek-proyek inovasi yang sesuai dengan kriteria investasi mereka. Proses due diligence dan evaluasi proyek menjadi kompleks karena minimnya platform yang dapat menyajikan informasi komprehensif tentang inovasi, termasuk demonstrasi teknologi secara real-time yang dapat memberikan gambaran jelas tentang potensi implementasi.
+Permasalahan utama yang diidentifikasi adalah fragmentasi ekosistem inovasi berkelanjutan, di mana para innovator kesulitan mengakses platform yang tepat untuk mengembangkan dan mempresentasikan solusi mereka, sementara investor kesulitan menemukan proyek-proyek inovatif yang sejalan dengan tujuan sustainabilitas. Ketidakselarasan ini menciptakan gap yang menghambat kemajuan industri berkelanjutan dan implementasi teknologi ramah lingkungan.
 
-### 1.1.3 Peran AI dalam Sustainable Development
+Selain itu, kompleksitas dalam memahami dampak kesehatan dari implementasi teknologi industri menjadi tantangan tersendiri. Banyak stakeholder yang memerlukan tools untuk memantau dan mengevaluasi aspek kesehatan dari solusi teknologi yang dikembangkan, namun belum tersedia platform yang menyediakan fitur monitoring kesehatan yang terintegrasi dengan sistem manajemen proyek berkelanjutan.
 
-Artificial Intelligence (AI) dan machine learning telah menunjukkan potensi besar dalam berbagai sektor, terutama dalam health monitoring dan predictive analytics. Implementasi AI dalam platform digital dapat memberikan nilai tambah yang signifikan, tidak hanya sebagai alat demonstrasi teknologi, tetapi juga sebagai proof of concept untuk aplikasi AI dalam konteks industrial dan kesehatan. Hal ini menjadi semakin penting mengingat kebutuhan akan workplace safety yang meningkat di era pasca-pandemi.
+## 1.2 Rumusan Masalah Pengguna
 
-Berdasarkan analisis terhadap platform-platform existing seperti AngelList, Kickstarter, dan berbagai corporate innovation platforms, ditemukan bahwa masih terdapat gap dalam hal integrasi teknologi AI yang dapat didemonstrasikan secara interaktif, focus khusus pada sustainable development dan green technology, serta user experience yang optimal untuk kedua user groups dengan technical proficiency yang berbeda.
+### 1.2.1 Permasalahan Innovator
 
-### 1.1.4 Pendekatan HCI dalam Platform Development
+Para innovator dalam bidang teknologi berkelanjutan menghadapi serangkaian tantangan yang menghambat pengembangan dan implementasi solusi mereka. Permasalahan pertama adalah kesulitan dalam mengakses platform yang menyediakan ekosistem lengkap untuk pengembangan inovasi, mulai dari tahap konseptualisasi hingga implementasi. Banyak innovator yang memiliki ide cemerlang namun terkendala dalam menemukan saluran yang tepat untuk mengkomunikasikan value proposition mereka kepada stakeholder yang relevan.
 
-Mengingat kompleksitas interaksi antara innovators dan investors, serta kebutuhan untuk mendemonstrasikan teknologi AI secara efektif, diperlukan pendekatan Human-Computer Interaction (HCI) yang komprehensif dalam pengembangan platform. Prinsip-prinsip user-centered design, usability engineering, dan interaction design menjadi krusial untuk memastikan platform dapat memfasilitasi kedua user groups dengan efektif sambil mempertahankan accessibility untuk berbagai tingkat technical proficiency.
+Tantangan kedua yang dihadapi innovator adalah keterbatasan akses terhadap resources dan funding yang memadai. Proses pencarian investor atau partner strategis seringkali memakan waktu dan energi yang signifikan, sementara innovator perlu fokus pada pengembangan teknologi inti. Hal ini menciptakan dilema antara kebutuhan untuk networking dan pengembangan produk yang optimal.
 
-Platform Verdant dikembangkan sebagai respons terhadap kebutuhan tersebut, menggabungkan konsep sustainable industrial development dengan AI-powered health monitoring demonstration dalam satu ekosistem digital yang terintegrasi. Platform ini dirancang untuk menjembatani gap antara inovasi teknologi dan investasi berkelanjutan, sambil memberikan pengalaman pengguna yang optimal melalui penerapan prinsip-prinsip HCI modern.
+Permasalahan ketiga adalah kompleksitas dalam memahami dan mengintegrasikan aspek sustainabilitas ke dalam solusi teknologi mereka. Banyak innovator yang memiliki keahlian teknis tinggi namun memerlukan guidance dalam memastikan bahwa solusi mereka benar-benar kontribusi terhadap tujuan berkelanjutan dan dapat memberikan impact positif terhadap lingkungan dan masyarakat.
 
-## 1.2 Rumusan Masalah
+### 1.2.2 Permasalahan Investor
 
-### 1.2.1 Problem Statement
+Investor yang fokus pada sustainable technology dan impact investing menghadapi tantangan utama dalam identifying dan evaluating proyek-proyek yang sejalan dengan kriteria investasi mereka. Permasalahan pertama adalah information asymmetry, di mana investor kesulitan mendapatkan informasi komprehensif tentang potensi teknologi, team capability, market opportunity, dan sustainability impact dari proyek-proyek yang ditawarkan.
 
-Bagaimana merancang dan mengembangkan platform digital yang dapat memfasilitasi kolaborasi efektif antara innovators dan investors dalam ekosistem sustainable development, sambil mengintegrasikan AI-powered health monitoring demonstration yang dapat memberikan user experience yang optimal untuk kedua user groups?
+Tantangan kedua adalah keterbatasan platform yang menyediakan due diligence tools yang memadai untuk mengevaluasi aspek teknis, finansial, dan dampak sustainabilitas secara terintegrasi. Investor memerlukan akses terhadap data dan analytics yang memungkinkan mereka membuat keputusan investasi yang informed dan strategic, namun seringkali informasi tersebut tersebar di berbagai sumber yang tidak terkoneksi.
 
-### 1.2.2 Tantangan dari Perspektif Innovators
+Permasalahan ketiga adalah kesulitan dalam monitoring dan tracking progress dari portfolio investasi mereka, terutama dalam mengukur actual sustainability impact yang dihasilkan. Investor memerlukan dashboard dan reporting mechanism yang memungkinkan mereka memantau key performance indicators terkait sustainabilitas dan return on investment secara real-time.
 
-Masalah utama yang dihadapi innovators mencakup keterbatasan akses terhadap investor yang fokus pada sustainable technology. Banyak inovator kesulitan mengidentifikasi dan terhubung dengan impact investors yang sesuai dengan visi dan misi mereka. Selain itu, terdapat tantangan dalam mendemonstrasikan potensi teknologi AI kepada non-technical investors yang memerlukan pemahaman mendalam tentang implementasi praktis teknologi tersebut.
+## 1.3 Analisis Target Pengguna
 
-Aspek credibility building juga menjadi tantangan signifikan, dimana innovators memerlukan platform untuk comprehensive project documentation yang dapat membangun trust dengan investors. Minimnya platform yang menyediakan tools untuk real-time technology showcase dan project impact measurement menjadi hambatan dalam proses komunikasi dan presentasi kepada potential investors.
+### 1.3.1 Profil Pengguna Innovator
 
-### 1.2.3 Tantangan dari Perspektif Investors
+Target pengguna innovator Platform Verdant terdiri dari individuals dan teams yang aktif mengembangkan solusi teknologi berkelanjutan. Segmen ini mencakup early-stage entrepreneurs yang memiliki background teknis strong dalam areas seperti renewable energy, green technology, sustainable manufacturing, dan environmental solutions. Karakteristik demografis utama meliputi professionals berusia 25-45 tahun dengan educational background di bidang engineering, technology, environmental science, atau business dengan fokus sustainability.
 
-Dari perspektif investors, tantangan utama meliputi kesulitan menemukan high-quality sustainable technology projects yang sesuai dengan criteria investasi mereka. Deal flow discovery menjadi inefficient karena minimnya filter dan kategorisasi yang tepat untuk investment opportunities, khususnya dalam sektor sustainable technology dan AI-based solutions.
+Psychographic profile dari pengguna innovator menunjukkan bahwa mereka adalah individuals yang highly motivated untuk menciptakan positive impact terhadap lingkungan dan society. Mereka memiliki mindset entrepreneurial yang kuat, comfortable dengan technology adoption, dan actively seeking opportunities untuk collaboration dan knowledge sharing. Pain points utama mereka adalah keterbatasan akses terhadap funding, networks, dan market opportunities yang relevan dengan sustainability focus mereka.
 
-Kompleksitas dalam proses due diligence merupakan tantangan lain, terutama dalam mengevaluasi technical feasibility dari AI-based solutions. Investors memerlukan tools untuk risk assessment dan impact measurement yang dapat membantu dalam pengambilan keputusan investasi yang informed. Market intelligence gap juga menjadi kendala, dimana investors memerlukan insights tentang emerging trends dan benchmarking tools untuk investment comparison.
+Behavioral patterns pengguna innovator menunjukkan bahwa mereka active users of digital platforms untuk research, networking, dan project management. Mereka prefer platforms yang menyediakan comprehensive features untuk project presentation, collaboration tools, dan access to relevant stakeholders. Time constraint menjadi faktor penting, sehingga mereka memerlukan efficient and intuitive interface yang memungkinkan mereka focus pada core innovation activities.
 
-### 1.2.4 Target Users dan Scope Penelitian
+### 1.3.2 Profil Pengguna Investor
 
-Target users penelitian ini adalah innovators yang terdiri dari startup founders berusia 21-35 tahun dengan background technical education, healthcare professionals berusia 25-45 tahun yang tertarik pada digital health dan workplace safety, serta university students berusia 22-28 tahun yang sedang menempuh program advanced degree dalam bidang technical yang relevan. Dari sisi investors, target users mencakup impact investors profesional, VC partners yang fokus pada technology, dan angel investors dengan technical background.
+Target pengguna investor Platform Verdant adalah individuals dan organizations yang memiliki focus pada impact investing dan sustainable technology funding. Segmen ini mencakup venture capitalists, impact investors, corporate venture arms, dan high-net-worth individuals yang actively seeking investment opportunities dalam sustainability space. Age range yang dominan adalah 30-55 tahun dengan substantial financial background dan experience dalam technology investment.
 
-Scope penelitian mencakup pengembangan web-based platform dengan responsive design, implementasi AI health monitoring demonstration menggunakan TensorFlow.js, serta evaluasi comprehensive menggunakan heuristic evaluation, user testing, dan quantitative assessment melalui SUS dan UEQ. Namun, penelitian ini memiliki limitations dalam hal AI demo yang menggunakan simulated data, sample size terbatas untuk user testing, dan focus yang terbatas pada SDG 9 dengan AI demonstration khusus untuk health monitoring use case.
+Professional background pengguna investor mencakup individuals dengan expertise di finance, technology assessment, sustainability consulting, dan strategic planning. Mereka memiliki deep understanding of market dynamics dalam sustainability sector dan established networks dalam investment community. Decision-making process mereka typically involves thorough due diligence dan requires access to comprehensive data untuk investment evaluation.
 
-## 1.3 Tujuan Penelitian
+Motivational drivers untuk pengguna investor meliputi financial returns yang competitive combined dengan measurable positive impact terhadap environment dan society. Mereka actively seeking platforms yang dapat streamline investment process, provide robust analytics untuk decision making, dan enable effective portfolio monitoring. Risk assessment dan impact measurement menjadi critical factors dalam investment decisions mereka.
 
-### 1.3.1 Tujuan Umum
+## 1.4 Analisis Tugas Pengguna
 
-Tujuan umum penelitian ini adalah mengembangkan platform digital berkelanjutan yang mengintegrasikan prinsip-prinsip Human-Computer Interaction untuk memfasilitasi kolaborasi efektif antara innovators dan investors dalam ekosistem sustainable development, dengan mendemonstrasikan AI-powered health monitoring sebagai proof of concept teknologi.
+### 1.4.1 Task Analysis untuk Innovator
 
-### 1.3.2 Tujuan Khusus
+Tugas utama yang dilakukan innovator dalam Platform Verdant dimulai dari project submission dan presentation. Task ini melibatkan comprehensive documentation dari innovation concept, including technical specifications, market analysis, sustainability impact assessment, dan team credentials. Innovator perlu menyajikan informasi ini dalam format yang compelling dan easy to understand untuk menarik perhatian potential investors dan collaborators.
 
-Secara khusus, penelitian ini bertujuan untuk menganalisis kebutuhan dan karakteristik users dari kedua user groups melalui comprehensive user research dan task analysis yang mendalam. Penelitian ini juga bertujuan merancang user interface dan user experience yang optimal untuk platform dual-purpose menggunakan user-centered design methodology yang telah terbukti efektif dalam pengembangan aplikasi complex.
+Task kedua yang critical adalah networking dan collaboration management. Innovator perlu actively engage dengan various stakeholders, including investors, potential partners, industry experts, dan fellow innovators. Aktivitas ini meliputi communication management, meeting scheduling, follow-up activities, dan relationship building yang requires efficient coordination tools dan communication features.
 
-Implementasi AI demonstration module menggunakan TensorFlow.js untuk memberikan interactive technology showcase menjadi tujuan khusus lainnya, yang akan mendemonstrasikan bagaimana AI dapat diintegrasikan dalam browser-based platform tanpa mengorbankan privacy dan performance. Evaluasi usability dan user experience platform menggunakan multiple evaluation methods akan memberikan insights komprehensif tentang efektivitas design decisions yang telah dibuat.
+Task ketiga adalah project monitoring dan progress tracking. Innovator perlu regularly update project status, milestone achievements, financial metrics, dan sustainability indicators. Mereka juga perlu mengakses analytics dan insights untuk strategic decision making dan continuous improvement dari innovation development process mereka.
 
-Identifikasi design principles dan best practices untuk platform yang melayani multiple user groups dengan technical proficiency yang berbeda menjadi kontribusi penting bagi body of knowledge dalam HCI. Penelitian ini juga bertujuan memberikan rekomendasi untuk pengembangan platform berkelanjutan berdasarkan user feedback dan evaluation results yang dapat diaplikasikan dalam konteks yang lebih luas.
+### 1.4.2 Task Analysis untuk Investor
 
-### 1.3.3 Manfaat Penelitian
+Primary task untuk investor adalah project discovery dan initial screening. Aktivitas ini meliputi browsing available investment opportunities, filtering projects based pada specific criteria (technology focus, funding stage, geographic location, sustainability impact), dan conducting preliminary assessment untuk identifying projects yang align dengan investment thesis mereka.
 
-Manfaat akademis dari penelitian ini mencakup kontribusi terhadap HCI research dalam hal insights tentang designing for multiple user groups dengan different technical backgrounds, best practices untuk AI integration dalam user-facing platforms, serta methodology untuk evaluating platforms dengan complex user interactions. Penelitian ini juga memberikan educational value sebagai case study untuk sustainable technology platform development dan real-world application dari HCI principles yang dapat digunakan dalam pembelajaran dan penelitian selanjutnya.
+Task kedua yang fundamental adalah comprehensive due diligence process. Investor perlu analyze technical feasibility, market potential, financial projections, team capability, competitive landscape, dan sustainability impact metrics. Task ini requires access to detailed project information, financial data, technical documentation, dan third-party assessments yang comprehensive dan reliable.
 
-Manfaat praktis untuk innovators meliputi tersedianya platform untuk showcasing sustainable technology innovations, access to network of impact investors dan funding opportunities, serta tools untuk technology demonstration dan project management yang dapat meningkatkan success rate dalam mendapatkan funding. Untuk investors, manfaat mencakup streamlined discovery process untuk sustainable technology projects, risk assessment tools dan impact measurement capabilities, serta access to emerging technologies dan market intelligence yang dapat mendukung investment decision making.
+Task ketiga adalah investment management dan portfolio monitoring. Setelah melakukan investment, investor perlu track performance metrics, monitor milestone achievements, assess ongoing risks, dan evaluate actual sustainability impact. Mereka juga perlu maintain regular communication dengan portfolio companies dan make strategic decisions regarding follow-on investments atau exit strategies.
 
-Dari perspektif sosial, penelitian ini berkontribusi pada acceleration of SDG 9 achievement melalui technology collaboration, promotion of sustainable industrial development, support untuk green technology innovation ecosystem, serta knowledge transfer dan capacity building untuk sustainable technology adoption yang dapat memberikan dampak positif bagi masyarakat secara luas.
+## 1.5 Konteks Penggunaan Platform
 
-## 1.4 Metodologi Penelitian
+### 1.5.1 Skenario Penggunaan Innovator
 
-### 1.4.1 User-Centered Design Approach
+Skenario penggunaan typical untuk innovator dimulai ketika mereka memiliki innovation concept yang sudah dalam stage development dan ready untuk seeking external funding atau partnerships. Mereka access Platform Verdant untuk create comprehensive project profile yang showcasing unique value proposition, technical capabilities, market opportunity, dan sustainability impact dari solusi mereka.
 
-Penelitian ini menggunakan User-Centered Design (UCD) sebagai metodologi utama, yang menekankan pada pemahaman mendalam tentang users, needs, dan contexts dalam setiap tahap pengembangan platform. UCD approach dipilih karena kompleksitas requirements dari dual user groups yang memiliki goals dan technical backgrounds yang berbeda, serta kebutuhan untuk menciptakan solution yang equally effective untuk both user types.
+Dalam daily usage pattern, innovator menggunakan platform untuk managing communication dengan interested investors, updating project progress, accessing industry insights dan market intelligence, serta networking dengan fellow innovators untuk potential collaboration opportunities. Platform menjadi central hub untuk managing seluruh aspek dari innovation development dan commercialization process.
 
-Tahapan UCD yang diterapkan meliputi understand context of use melalui user research dan persona development yang comprehensive, specify requirements dengan functional dan non-functional requirements definition yang clear, design solutions dengan information architecture design dan prototyping yang iterative, serta evaluate against requirements melalui heuristic evaluation dan user testing dengan standardized metrics yang reliable dan valid.
+Advanced usage scenarios meliputi utilization dari AI-powered health monitoring features untuk demonstrating health impact dari teknologi mereka, accessing sustainability assessment tools untuk measuring environmental benefits, dan leveraging platform analytics untuk optimizing project presentation dan stakeholder engagement strategies.
 
-### 1.4.2 Proses Desain Iteratif
+### 1.5.2 Skenario Penggunaan Investor
 
-Proses desain iteratif mengadaptasi Double Diamond Design Process yang mencakup discover phase dengan user research mendalam dan market analysis competitive, define phase dengan problem definition yang precise dan user personas yang detailed, develop phase dengan information architecture yang logical dan prototyping yang user-tested, serta deliver phase dengan implementation yang robust dan comprehensive testing untuk memastikan quality.
+Investor typically menggunakan Platform Verdant dalam context dari investment sourcing dan portfolio management activities. Initial usage scenario melibatkan systematic exploration dari available investment opportunities dengan filtering capabilities yang memungkinkan mereka focus pada projects yang match dengan investment criteria dan strategic priorities mereka.
 
-Setiap phase dalam Double Diamond Process dilaksanakan dengan attention yang detail terhadap user feedback dan continuous refinement berdasarkan findings dari setiap iteration. Pendekatan ini memastikan bahwa final solution benar-benar address user needs dan provide value yang optimal untuk target users.
+Regular usage patterns mencakup monitoring portfolio performance, conducting ongoing due diligence untuk potential follow-on investments, accessing market intelligence dan industry trends, serta networking dengan innovators dan fellow investors. Platform menyediakan centralized dashboard untuk managing seluruh investment activities dan decision-making processes.
 
-### 1.4.3 Metode Evaluasi
+Strategic usage scenarios meliputi leveraging platform analytics untuk identifying emerging trends dalam sustainability technology, assessing macro-level impact dari investment portfolio, benchmarking performance against industry standards, dan accessing insights untuk strategic planning dan investment thesis refinement.
 
-Evaluasi dilakukan menggunakan multiple methods untuk triangulation yang comprehensive. Heuristic evaluation menggunakan Nielsen's 10 Usability Heuristics dengan expert reviewers untuk identify usability issues early dalam design process, sebelum dilakukan expensive user testing. User testing dilakukan dengan 7 representative users covering core platform functionality dengan realistic scenarios yang mencerminkan actual usage patterns.
+## 1.6 Kebutuhan Fungsional Platform
 
-System Usability Scale (SUS) digunakan untuk reliable measure dari overall system usability yang memungkinkan benchmarking dengan industry standards dan memberikan quantitative assessment yang objective. User Experience Questionnaire (UEQ) memberikan comprehensive assessment dari user experience quality dengan dimensional analysis yang complementing SUS results dan memberikan insights yang lebih detailed tentang specific aspects dari user experience.
+### 1.6.1 Kebutuhan Innovator
 
-### 1.4.4 Validasi dan Etika Penelitian
+Kebutuhan fungsional utama untuk innovator mencakup comprehensive project management system yang memungkinkan mereka organize dan present innovation projects secara professional dan compelling. System ini harus menyediakan templates dan guided workflows untuk documentation, multimedia presentation capabilities, dan integration dengan external tools yang commonly digunakan dalam innovation development.
 
-Research validation strategy mencakup method triangulation dengan multiple evaluation methods untuk comprehensive assessment, data triangulation dengan quantitative dan qualitative data integration untuk richer insights, serta evaluator triangulation dengan multiple perspectives dari different stakeholder groups untuk objective evaluation. Reliability measures meliputi internal consistency checks, inter-rater reliability untuk heuristic evaluation, dan test-retest reliability untuk critical measurements.
+Feature networking dan communication menjadi critical requirement, mencakup messaging system, meeting scheduling, collaboration tools, dan relationship management capabilities. Platform harus enable efficient interaction antara innovators dan various stakeholders while maintaining privacy dan intellectual property protection yang adequate.
 
-Ethical considerations mencakup participant protection dengan informed consent dan confidentiality measures yang strict, serta research integrity dengan transparent reporting dan bias minimization melalui structured protocols. Data security dan participant anonymity dijaga dengan ketat sepanjang proses penelitian untuk memastikan bahwa penelitian dilakukan sesuai dengan standard etika penelitian yang berlaku.
+Analytics dan insights features diperlukan untuk helping innovators understand market dynamics, track engagement metrics dari potential investors, benchmark performance against similar projects, dan access actionable recommendations untuk improving project presentation dan stakeholder engagement effectiveness.
 
-Metodologi yang komprehensif ini diharapkan dapat menghasilkan platform yang tidak hanya memenuhi kebutuhan users tetapi juga memberikan kontribusi signifikan terhadap body of knowledge dalam HCI, khususnya dalam designing platforms untuk sustainable technology collaboration yang dapat diaplikasikan dalam konteks yang lebih luas.
+### 1.6.2 Kebutuhan Investor
+
+Investor memerlukan sophisticated filtering dan search capabilities yang memungkinkan mereka efficiently discover investment opportunities yang align dengan specific criteria dan investment thesis. System harus provide advanced analytics untuk project evaluation, including financial modeling tools, risk assessment frameworks, dan sustainability impact measurement capabilities.
+
+Due diligence support features menjadi essential requirement, mencakup document management, data room functionality, communication tracking, dan integration dengan external assessment tools. Platform harus enable systematic dan thorough evaluation process while maintaining security dan confidentiality standards yang appropriate untuk investment activities.
+
+Portfolio management dan monitoring capabilities diperlukan untuk tracking investment performance, measuring sustainability impact, managing ongoing relationships dengan portfolio companies, dan generating reports untuk various stakeholders including limited partners dan regulatory requirements.
+
+## 1.7 Kesimpulan Analisis Masalah
+
+Analisis komprehensif terhadap user problems dan requirements mengidentifikasi kebutuhan mendesak untuk platform terintegrasi yang dapat menjembatani gap antara innovators dan investors dalam sustainability technology space. Platform Verdant dirancang untuk addressing specific pain points yang dihadapi kedua user groups sambil providing additional value melalui AI-powered health monitoring capabilities dan comprehensive sustainability assessment tools.
+
+Understanding yang mendalam terhadap user profiles, task requirements, dan usage contexts menjadi foundation untuk design decisions dan feature prioritization dalam development process Platform Verdant. Pendekatan user-centered design yang diterapkan memastikan bahwa solusi yang dikembangkan truly addressing real user needs dan providing measurable value untuk target user population.
+
+Complexity dari user requirements dan diversity dari use cases mengindikasikan pentingnya iterative design approach dengan regular user feedback dan continuous improvement process. Foundation yang solid dalam user research dan problem analysis menjadi critical success factor untuk ensuring platform adoption dan long-term sustainability dari Platform Verdant solution.
