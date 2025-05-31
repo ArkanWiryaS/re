@@ -1,6 +1,7 @@
 # Heuristic Evaluation - Verdant Platform
 
 **Kelompok 13 - Kelas LB83**
+**Evaluators:** Arkan Wirya Sentika, Muhammad Jundi Arfa Satriatama, Adhe Naufal Putra Purnomo
 
 ---
 
@@ -9,9 +10,9 @@
 _The system should always keep users informed about what is going on, through appropriate feedback within reasonable time._
 
 **Is the heuristic violated? How?**
-Yes. Ketika AI Health Monitoring Demo loading TensorFlow.js models, tidak ada loading indicator atau progress feedback untuk user. Users tidak tahu apakah system sedang loading atau stuck. Pada form submission (Innovation/Investment forms) juga tidak ada clear feedback saat form sedang di-submit.
+**Partially violated.** Platform menampilkan navigation state dengan baik melalui active menu highlighting dan page titles yang jelas. Namun, pada AI Health Monitoring Demo, tidak ada loading indicator saat TensorFlow.js models sedang loading, menyebabkan user tidak tahu status system. Form submissions juga memerlukan better feedback during processing.
 
-**Severity:** Major (3)
+**Severity:** Minor (2)
 
 ---
 
@@ -20,9 +21,9 @@ Yes. Ketika AI Health Monitoring Demo loading TensorFlow.js models, tidak ada lo
 _The system should speak the users' language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order._
 
 **Is the heuristic violated? How?**
-Yes. Platform menggunakan technical jargon seperti "TensorFlow.js", "BlazeFace", "SDG 9" yang mungkin tidak familiar untuk semua users. Investment terminology seperti "impact metrics", "due diligence" juga dapat membingungkan novice investors.
+**Not significantly violated.** Platform menggunakan bahasa yang appropriate untuk target audience (innovators dan investors). Terminology seperti "Innovation Project", "Investment Opportunity", "Health Monitoring" sudah familiar. Beberapa technical terms seperti "TensorFlow.js" dan "BlazeFace" muncul di AI demo, namun ini acceptable karena menunjukkan credibility teknologi yang digunakan.
 
-**Severity:** Minor (2)
+**Severity:** Cosmetic (1)
 
 ---
 
@@ -31,7 +32,7 @@ Yes. Platform menggunakan technical jargon seperti "TensorFlow.js", "BlazeFace",
 _Users often choose system functions by mistake and will need a clearly marked 'emergency exit' to leave the unwanted state without having to go through an extended dialogue. Support undo and redo._
 
 **Is the heuristic violated? How?**
-Yes. Long forms (Innovation/Investment) tidak memiliki draft saving capability, sehingga users lose progress jika accidentally navigate away atau browser crashes. AI Demo juga tidak memiliki reset/restart option jika demo not working properly. Tidak ada clear back/previous step options pada multi-step processes.
+**Yes, violated.** Forms yang panjang (Innovation submission, Investment forms) tidak memiliki draft saving atau progress preservation. Users bisa kehilangan data jika accidentally navigate away. AI Demo tidak memiliki clear reset/restart button jika detection not working properly. Navigation memerlukan browser back button untuk return to previous steps.
 
 **Severity:** Major (3)
 
@@ -42,9 +43,9 @@ Yes. Long forms (Innovation/Investment) tidak memiliki draft saving capability, 
 _Users should not have to wonder whether different words, situations or actions mean the same thing. Follow platform conventions._
 
 **Is the heuristic violated? How?**
-Yes. Terdapat inconsistency dalam button styling across pages (colors, sizes, hover states). Form field styles, labels, dan validation patterns juga berbeda-beda antara Contact, Innovation, dan Investment forms. Users perlu relearn interaction patterns di setiap halaman.
+**Not violated.** Platform menunjukkan good consistency dalam navigation layout, color scheme (green theme yang konsisten), typography, dan button styling across all pages. Form layouts mengikuti standard conventions dengan clear labels dan logical field ordering. Design language coherent dan professional.
 
-**Severity:** Minor (2)
+**Severity:** Not applicable
 
 ---
 
@@ -53,9 +54,9 @@ Yes. Terdapat inconsistency dalam button styling across pages (colors, sizes, ho
 _Even better than good error messages is a careful design which prevents a problem from occurring in the first place._
 
 **Is the heuristic violated? How?**
-Yes. Tidak ada proper handling jika user denies camera permission untuk AI Demo, feature menjadi unusable tanpa clear guidance. Form validation hanya occurs on submit tanpa real-time validation. Not all required fields clearly marked, menyebabkan users submit incomplete forms.
+**Partially violated.** Platform menerapkan basic form validation dan required field indicators dengan baik. Namun, AI Demo tidak memiliki proper camera permission handling atau fallback options. Real-time validation bisa ditingkatkan untuk prevent submission errors. Overall, basic error prevention sudah implemented.
 
-**Severity:** Major (3)
+**Severity:** Minor (2)
 
 ---
 
@@ -64,9 +65,9 @@ Yes. Tidak ada proper handling jika user denies camera permission untuk AI Demo,
 _Make objects, actions and options visible. The user should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate._
 
 **Is the heuristic violated? How?**
-Yes. Dalam multi-step forms, users must remember information dari previous steps. Investment criteria juga harus diingat users ketika browsing projects, making it difficult to compare projects against user's criteria. Cognitive load tinggi untuk complex workflows.
+**Not violated.** Platform design mendukung recognition dengan clear navigation menu yang always visible, descriptive page headings, dan logical information architecture. Project information dan investment details ditampilkan dengan clear structure. Users tidak perlu mengingat information dari page lain karena context sudah cukup clear di setiap halaman.
 
-**Severity:** Minor (2)
+**Severity:** Not applicable
 
 ---
 
@@ -75,7 +76,7 @@ Yes. Dalam multi-step forms, users must remember information dari previous steps
 _Accelerators – unseen by the novice user – may often speed up the interaction for the expert user, such that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions._
 
 **Is the heuristic violated? How?**
-Yes. Tidak ada keyboard shortcuts untuk power users. No personalization options untuk different user types. All users see same interface regardless of experience level, tidak ada customization untuk frequent actions atau adaptive interface.
+**Partially violated.** Platform sudah menyediakan multiple pathways untuk different user types (innovator vs investor), dengan dedicated sections dan forms. Namun, tidak ada personalization features atau shortcuts untuk experienced users. Interface sama untuk semua experience levels, tidak ada customization options.
 
 **Severity:** Minor (2)
 
@@ -86,9 +87,9 @@ Yes. Tidak ada keyboard shortcuts untuk power users. No personalization options 
 _Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility._
 
 **Is the heuristic violated? How?**
-Yes. Homepage contains too much information yang competing for attention, users mungkin overwhelmed dan tidak tahu where to start. AI Demo menampilkan too many technical details simultaneously, making interface feel cluttered untuk non-technical users.
+**Not violated.** Platform menerapkan clean, minimalist design dengan good use of white space dan visual hierarchy. Information presented secara logical dan focused pada essential elements. Green color scheme professional dan tidak overwhelming. Layout tidak cluttered dan mendukung easy scanning of content.
 
-**Severity:** Minor (2)
+**Severity:** Not applicable
 
 ---
 
@@ -97,7 +98,7 @@ Yes. Homepage contains too much information yang competing for attention, users 
 _Error messages should be expressed in plain language (no codes), precisely indicate the problem and constructively suggest a solution._
 
 **Is the heuristic violated? How?**
-Yes. Error messages tidak specific atau actionable. Jika AI demo fails, tidak ada clear error message atau recovery options. Users tidak tahu how to fix problems karena generic error messages tanpa clear steps untuk resolution.
+**Yes, violated.** Ketika AI demo mengalami issues (camera access denied, model loading failed), error messages tidak specific atau actionable. Form validation errors basic tapi bisa lebih descriptive. Users perlu better guidance untuk troubleshooting dan recovery dari error states, especially untuk technical features seperti AI demo.
 
 **Severity:** Major (3)
 
@@ -108,15 +109,48 @@ Yes. Error messages tidak specific atau actionable. Jika AI demo fails, tidak ad
 _Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user's task, list concrete steps to be carried out and not be too large._
 
 **Is the heuristic violated? How?**
-Yes. No comprehensive help atau documentation system tersedia. Complex features like AI demo tidak memiliki contextual help. Users cannot get help when stuck dengan complex processes. Tidak ada FAQs, tutorials, atau step-by-step guides.
+**Partially violated.** Platform sudah cukup intuitive untuk basic navigation dan form completion tanpa extensive documentation. Clear page descriptions dan contextual information adequate untuk most users. Namun, complex features seperti AI Health Demo bisa benefit dari contextual help atau quick tutorials untuk first-time users.
 
 **Severity:** Minor (2)
 
 ---
 
-## **Summary**
+## **Summary & Assessment**
 
-- **Major Violations (3):** 4 issues
-- **Minor Violations (2):** 6 issues
-- **Total Issues:** 10 violations identified
-- **Most Critical:** Visibility of system status, User control and freedom, Error prevention, Error recovery
+### **Overall Usability Score:**
+
+- **Not Violated:** 3 heuristics (Good design fundamentals)
+- **Partially Violated:** 4 heuristics (Minor improvements needed)
+- **Clearly Violated:** 3 heuristics (Requires attention)
+
+### **Severity Breakdown:**
+
+- **Major Issues (3):** 2 problems - Need immediate attention
+- **Minor Issues (2):** 4 problems - Plan for next iteration
+- **Cosmetic Issues (1):** 1 problem - Low priority
+
+### **Platform Strengths:**
+
+✅ **Consistent visual design** dan professional appearance  
+✅ **Clear information architecture** dan logical navigation  
+✅ **Appropriate language** untuk target audience  
+✅ **Good recognition support** dengan descriptive elements  
+✅ **Clean aesthetic** yang tidak overwhelming
+
+### **Priority Improvements:**
+
+🔴 **High Priority:**
+
+- Implement form draft saving/progress preservation
+- Enhance AI demo error handling dan recovery options
+
+🟡 **Medium Priority:**
+
+- Add loading indicators untuk AI model initialization
+- Improve real-time form validation
+- Add contextual help untuk complex features
+- Consider personalization untuk different user experience levels
+
+### **Overall Assessment:**
+
+Platform Verdant menunjukkan **solid foundation** dalam usability design dengan strong visual consistency dan clear information structure. Core usability principles sudah well-implemented. Areas untuk improvement primarily focused pada **advanced interactions** dan **error handling** rather than fundamental design flaws. Platform ready untuk user testing dengan minor refinements.
