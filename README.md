@@ -1,9 +1,9 @@
-# TA03 - User & Task Analysis Report
+# TA03 - USER & TASK ANALYSIS REPORT
 
 **Project Group Human Computer Interaction**  
 **Kelompok 13 - Kelas LB83**
 
-**Team Members:**
+**Anggota Kelompok:**
 
 - 2702215504 - ARKAN WIRYA SENTIKA
 - 2702286772 - MUHAMMAD JUNDI ARFA SATRIATAMA
@@ -14,351 +14,449 @@
 
 ---
 
-## Title
+## DAFTAR ISI
+
+**BAB 1. PENDAHULUAN**
+1.1. Judul Project  
+1.2. Identifikasi Masalah
+
+**BAB 2. ANALISIS PENGGUNA**  
+2.1. Identifikasi Kelas Pengguna Utama  
+2.2. Karakteristik dan Kebutuhan Pengguna  
+2.3. Stakeholder Sekunder
+
+**BAB 3. ANALISIS TUGAS**  
+3.1. Tugas untuk Innovator/Researcher  
+3.2. Tugas untuk Impact Investor
+
+**BAB 4. ANALISIS USE CASE**  
+4.1. Diagram Use Case  
+4.2. Deskripsi Use Case
+
+**BAB 5. KESIMPULAN**
+
+---
+
+## BAB 1. PENDAHULUAN
+
+### 1.1. Judul Project
 
 **Verdant: Sustainable Industrial Development Platform with AI-Powered Health Monitoring System**
 
----
+Platform digital terintegrasi yang menghubungkan ekosistem pembangunan berkelanjutan Indonesia melalui inovasi teknologi AI dan fasilitasi investasi dampak.
 
-## Problem
+### 1.2. Identifikasi Masalah
 
-Indonesia faces significant challenges in achieving balanced industrial growth with environmental sustainability, particularly in implementing UN Sustainable Development Goal 9 (Industry, Innovation, and Infrastructure). Current market research indicates that **78% of innovative ideas fail to reach implementation** due to lack of proper funding connections, while **65% of impact investors struggle to find verified sustainable projects**.
+Indonesia menghadapi tantangan signifikan dalam mencapai keseimbangan pertumbuhan industri dengan kelestarian lingkungan, khususnya dalam implementasi Sustainable Development Goal 9 (Industry, Innovation, and Infrastructure).
 
-Additionally, the post-pandemic era has highlighted the urgent need for **workplace safety monitoring solutions** that can ensure health protocol compliance without compromising worker privacy or requiring expensive infrastructure investments. Traditional monitoring systems are often inaccessible to SMEs, which represent 99.9% of businesses in Indonesia.
+#### 1.2.1. Masalah Utama yang Diidentifikasi
 
-There is a critical need for an integrated digital platform that can:
+**Kesenjangan Ekosistem Inovasi-Investasi**
+Berdasarkan riset pasar terkini, **78% ide inovatif gagal mencapai implementasi** karena kurangnya koneksi pendanaan yang tepat, sementara **65% impact investor kesulitan menemukan proyek sustainable yang terverifikasi**.
 
-1. Connect innovators with investors in the sustainable development ecosystem
-2. Demonstrate practical implementation of smart technology for workplace safety
-3. Provide privacy-first, browser-based AI solutions accessible to all business scales
-4. Support Indonesia's transition toward sustainable industrial development
+**Keterbatasan Akses Teknologi Workplace Safety**
+Era pasca-pandemi telah menyoroti kebutuhan mendesak akan **solusi monitoring keselamatan kerja** yang dapat memastikan kepatuhan protokol kesehatan tanpa mengorbankan privasi pekerja atau memerlukan investasi infrastruktur mahal. Sistem monitoring tradisional seringkali tidak dapat diakses oleh UKM yang merupakan 99,9% dari bisnis di Indonesia.
 
----
+#### 1.2.2. Kebutuhan Platform Terintegrasi
 
-## Users
+Terdapat kebutuhan kritis akan platform digital terintegrasi yang dapat:
 
-### **Primary User Classes**
-
-#### **1. Innovator/Researcher**
-
-**Definition:** Indonesian entrepreneurs, researchers, and organizations aged 25-45 with sustainable technology ideas seeking funding and implementation support.
-
-**Characteristics:**
-
-- Educational background in engineering, environmental science, or technology
-- Have developed innovative solutions for sustainable industrial development
-- Limited access to funding networks and industry connections
-- Need platform to showcase their innovations and connect with investors
-- Require guidance on regulatory compliance and market entry
-
-**Needs:**
-
-- Access to funding opportunities
-- Expert collaboration and mentorship
-- Technical resources and prototyping facilities
-- Market validation and entry support
-- Regulatory compliance guidance
-
-#### **2. Impact Investor**
-
-**Definition:** Impact investors, venture capital firms, and development finance institutions looking for verified sustainable projects with measurable environmental and social returns.
-
-**Characteristics:**
-
-- Professional background in finance, investment, or development
-- Portfolio allocation specifically for sustainable development projects
-- Seek projects with both financial returns and positive environmental/social impact
-- Need transparent due diligence processes and impact measurement
-- Value projects aligned with SDG goals
-
-**Needs:**
-
-- Access to verified, high-quality sustainable projects
-- Comprehensive project evaluation and due diligence
-- Transparent impact measurement and reporting
-- Risk assessment and compliance verification
-- Portfolio diversification opportunities
-
-### **Secondary Stakeholders**
-
-#### **3. Government Partners**
-
-Ministry of Industry, Ministry of Environment, and regional development agencies seeking technology solutions and private sector partnerships.
-
-#### **4. Academic Institutions**
-
-Universities and research centers requiring industry collaboration and technology transfer opportunities.
-
-#### **5. Technology Users**
-
-Workplace safety managers, building operators, and health compliance officers needing practical AI-powered monitoring solutions.
+1. Menghubungkan inovator dengan investor dalam ekosistem pembangunan berkelanjutan
+2. Mendemonstrasikan implementasi praktis smart technology untuk workplace safety
+3. Menyediakan solusi AI berbasis browser yang privacy-first dan dapat diakses semua skala bisnis
+4. Mendukung transisi Indonesia menuju pembangunan industri berkelanjutan
 
 ---
 
-## Tasks
+## BAB 2. ANALISIS PENGGUNA
 
-### **Tasks for Innovator/Researcher**
+### 2.1. Identifikasi Kelas Pengguna Utama
 
-#### **Task 1: Submit Innovation Project**
+#### 2.1.1. Primary User Class 1: Innovator/Researcher
 
-**Goal:** Successfully submit innovative sustainable development project to Verdant platform for evaluation and potential funding connection.
-**Steps:**
+**Definisi:**
+Entrepreneur Indonesia, peneliti, dan organisasi berusia 25-45 tahun dengan ide teknologi berkelanjutan yang mencari dukungan pendanaan dan implementasi.
 
-- Access innovation submission portal
-- Complete multi-step project information form
-- Provide technical specifications and SDG impact assessment
-- Upload supporting documentation and prototypes
-- Submit for review and evaluation
+**Demografi dan Profil:**
 
-#### **Task 2: Browse Platform Information**
+- Latar belakang pendidikan: teknik, ilmu lingkungan, atau teknologi
+- Lokasi geografis: area urban dan semi-urban Indonesia
+- Tingkat teknologi: menengah hingga tinggi
+- Status profesional: entrepreneur, akademisi, peneliti industri
 
-**Goal:** Understand Verdant's mission, services, and how the platform can support innovation development.
-**Steps:**
+#### 2.1.2. Primary User Class 2: Impact Investor
 
-- Navigate through platform overview and mission statement
-- Review success stories and case studies
-- Understand the innovation evaluation process
-- Learn about available resources and support services
-- Identify relevant focus areas for their innovation
+**Definisi:**
+Impact investor, perusahaan venture capital, dan institusi keuangan pembangunan yang mencari proyek berkelanjutan terverifikasi dengan return lingkungan dan sosial yang terukur.
 
-#### **Task 3: Find Investment Opportunity**
+**Demografi dan Profil:**
 
-**Goal:** Identify potential investors and funding sources that align with their innovation goals and sector focus.
-**Steps:**
+- Latar belakang profesional: keuangan, investasi, atau pembangunan
+- Cakupan geografis: lokal, regional, dan internasional
+- Kapasitas investasi: menengah hingga besar
+- Focus area: proyek dengan alignment SDG yang jelas
 
-- Browse available investment opportunities and criteria
-- Filter opportunities by sector, funding amount, and requirements
-- Review investor profiles and investment preferences
-- Assess compatibility between innovation and investor goals
-- Prepare approach strategy for potential partnerships
+### 2.2. Karakteristik dan Kebutuhan Pengguna
 
-#### **Task 4: Use AI Health Monitoring Demo**
+#### 2.2.1. Karakteristik Innovator/Researcher
 
-**Goal:** Experience and understand AI technology implementation for potential integration in their innovation or learning purposes.
-**Steps:**
+**Karakteristik Utama:**
 
-- Access AI-powered face mask detection demonstration
-- Test real-time webcam detection functionality
-- Upload images for mask compliance analysis
-- Review accuracy results and confidence scores
-- Understand privacy-first implementation approach
+- Telah mengembangkan solusi inovatif untuk pembangunan industri berkelanjutan
+- Akses terbatas ke jaringan pendanaan dan koneksi industri
+- Memerlukan platform untuk showcase inovasi dan koneksi dengan investor
+- Membutuhkan panduan compliance regulasi dan market entry
 
-#### **Task 5: Contact Verdant**
+**Kebutuhan Fungsional:**
 
-**Goal:** Establish communication with Verdant team for support, guidance, or collaboration opportunities.
-**Steps:**
+- Akses ke peluang pendanaan yang relevan
+- Kolaborasi dengan expert dan mentorship
+- Sumber daya teknis dan fasilitas prototyping
+- Validasi pasar dan dukungan market entry
+- Panduan compliance regulasi
 
-- Complete contact form with specific inquiry details
-- Select appropriate inquiry category and urgency level
-- Provide comprehensive project background if relevant
-- Submit inquiry and await response
-- Follow up with additional information if requested
+#### 2.2.2. Karakteristik Impact Investor
 
-#### **Task 6: Explore Technical Resources**
+**Karakteristik Utama:**
 
-**Goal:** Access available technical resources, expert networks, and implementation support for innovation development.
-**Steps:**
+- Alokasi portfolio khusus untuk proyek pembangunan berkelanjutan
+- Mencari proyek dengan financial return dan dampak positif lingkungan/sosial
+- Memerlukan proses due diligence transparan dan pengukuran dampak
+- Menghargai proyek yang aligned dengan SDG goals
 
-- Review available laboratory and prototyping facilities
-- Identify expert collaboration opportunities
-- Access regulatory compliance guidance
-- Explore partnership possibilities with other innovators
-- Understand intellectual property protection options
+**Kebutuhan Fungsional:**
 
-### **Tasks for Impact Investor**
+- Akses ke proyek berkelanjutan berkualitas tinggi yang terverifikasi
+- Evaluasi proyek komprehensif dan due diligence
+- Pengukuran dan pelaporan dampak yang transparan
+- Penilaian risiko dan verifikasi compliance
+- Peluang diversifikasi portfolio
 
-#### **Task 1: Browse Platform Information**
+### 2.3. Stakeholder Sekunder
 
-**Goal:** Understand Verdant's investment facilitation services and sustainable development focus areas.
-**Steps:**
+#### 2.3.1. Government Partners
 
-- Review platform mission and sustainable development alignment
-- Study investment process and evaluation criteria
-- Analyze track record and success metrics
-- Understand due diligence and partnership support services
-- Assess platform credibility and regulatory compliance
+Kementerian Perindustrian, Kementerian Lingkungan Hidup, dan badan pengembangan regional yang mencari solusi teknologi dan partnership sektor swasta.
 
-#### **Task 2: Find Investment Opportunity**
+#### 2.3.2. Academic Institutions
 
-**Goal:** Identify and evaluate sustainable development projects that match investment criteria and impact goals.
-**Steps:**
+Universitas dan pusat riset yang memerlukan kolaborasi industri dan peluang transfer teknologi.
 
-- Browse current project portfolio and investment opportunities
-- Filter projects by sector, investment amount, and risk profile
-- Review project details, financial projections, and impact metrics
-- Assess alignment with investment strategy and SDG goals
-- Evaluate potential returns and risk factors
+#### 2.3.3. Technology Users
 
-#### **Task 3: Use AI Health Monitoring Demo**
+Workplace safety manager, building operator, dan health compliance officer yang memerlukan solusi monitoring AI praktis.
 
-**Goal:** Evaluate AI technology implementation as potential investment opportunity or portfolio company application.
-**Steps:**
+---
 
-- Test AI-powered health monitoring system functionality
-- Assess market potential and commercial viability
-- Evaluate technology scalability and implementation complexity
-- Review privacy compliance and regulatory adherence
-- Consider integration potential with portfolio companies
+## BAB 3. ANALISIS TUGAS
 
-#### **Task 4: Contact Verdant**
+### 3.1. Tugas untuk Innovator/Researcher
 
-**Goal:** Initiate communication for investment opportunities, partnership discussions, or due diligence processes.
-**Steps:**
+#### 3.1.1. Task 1: Submit Innovation Project
 
-- Complete investor inquiry form with investment criteria
-- Specify areas of interest and investment capacity
-- Request detailed project information and documentation
-- Schedule consultation meetings with Verdant team
-- Establish communication channels for ongoing updates
+**Goal:** Berhasil mengajukan proyek inovasi pembangunan berkelanjutan ke platform Verdant untuk evaluasi dan koneksi pendanaan potensial.
 
-#### **Task 5: Submit Investment Form**
+**Langkah Pelaksanaan:**
 
-**Goal:** Formally express investment interest and initiate due diligence process for specific projects.
-**Steps:**
+- Mengakses portal submission inovasi
+- Melengkapi form informasi proyek multi-step
+- Menyediakan spesifikasi teknis dan assessment dampak SDG
+- Mengupload dokumentasi pendukung dan prototype
+- Submit untuk review dan evaluasi
 
-- Complete comprehensive investor profile and preferences
-- Specify investment criteria, risk tolerance, and impact goals
+#### 3.1.2. Task 2: Browse Platform Information
+
+**Goal:** Memahami misi Verdant, layanan, dan bagaimana platform dapat mendukung pengembangan inovasi.
+
+**Langkah Pelaksanaan:**
+
+- Navigasi melalui overview platform dan mission statement
+- Review success stories dan case studies
+- Memahami proses evaluasi inovasi
+- Mempelajari sumber daya dan layanan support yang tersedia
+- Mengidentifikasi focus area yang relevan untuk inovasi mereka
+
+#### 3.1.3. Task 3: Find Investment Opportunity
+
+**Goal:** Mengidentifikasi investor potensial dan sumber pendanaan yang align dengan tujuan inovasi dan focus sektor.
+
+**Langkah Pelaksanaan:**
+
+- Browse peluang investasi dan criteria yang tersedia
+- Filter opportunities berdasarkan sektor, jumlah funding, dan requirements
+- Review profil investor dan preferensi investasi
+- Assess kompatibilitas antara inovasi dan tujuan investor
+- Persiapan strategi approach untuk partnership potensial
+
+#### 3.1.4. Task 4: Use AI Health Monitoring Demo
+
+**Goal:** Mengalami dan memahami implementasi teknologi AI untuk integrasi potensial dalam inovasi atau tujuan pembelajaran.
+
+**Langkah Pelaksanaan:**
+
+- Akses demonstrasi AI-powered face mask detection
+- Test functionality real-time webcam detection
+- Upload gambar untuk analisis mask compliance
+- Review hasil akurasi dan confidence scores
+- Memahami pendekatan implementasi privacy-first
+
+#### 3.1.5. Task 5: Contact Verdant
+
+**Goal:** Membangun komunikasi dengan tim Verdant untuk support, guidance, atau peluang kolaborasi.
+
+**Langkah Pelaksanaan:**
+
+- Melengkapi contact form dengan detail inquiry spesifik
+- Memilih category inquiry dan urgency level yang tepat
+- Menyediakan background proyek komprehensif jika relevan
+- Submit inquiry dan menunggu response
+- Follow up dengan informasi tambahan jika diminta
+
+#### 3.1.6. Task 6: Explore Technical Resources
+
+**Goal:** Mengakses sumber daya teknis yang tersedia, jaringan expert, dan dukungan implementasi untuk pengembangan inovasi.
+
+**Langkah Pelaksanaan:**
+
+- Review fasilitas laboratorium dan prototyping yang tersedia
+- Mengidentifikasi peluang kolaborasi expert
+- Akses panduan compliance regulasi
+- Explore kemungkinan partnership dengan innovator lain
+- Memahami opsi perlindungan intellectual property
+
+### 3.2. Tugas untuk Impact Investor
+
+#### 3.2.1. Task 1: Browse Platform Information
+
+**Goal:** Memahami layanan fasilitasi investasi Verdant dan focus area pembangunan berkelanjutan.
+
+**Langkah Pelaksanaan:**
+
+- Review misi platform dan alignment pembangunan berkelanjutan
+- Studi proses investasi dan criteria evaluasi
+- Analisis track record dan success metrics
+- Memahami due diligence dan layanan partnership support
+- Assess kredibilitas platform dan compliance regulasi
+
+#### 3.2.2. Task 2: Find Investment Opportunity
+
+**Goal:** Mengidentifikasi dan mengevaluasi proyek pembangunan berkelanjutan yang match dengan criteria investasi dan impact goals.
+
+**Langkah Pelaksanaan:**
+
+- Browse portfolio proyek terkini dan peluang investasi
+- Filter proyek berdasarkan sektor, jumlah investasi, dan risk profile
+- Review detail proyek, proyeksi finansial, dan impact metrics
+- Assess alignment dengan strategi investasi dan SDG goals
+- Evaluasi potential returns dan risk factors
+
+#### 3.2.3. Task 3: Use AI Health Monitoring Demo
+
+**Goal:** Mengevaluasi implementasi teknologi AI sebagai peluang investasi potensial atau aplikasi portfolio company.
+
+**Langkah Pelaksanaan:**
+
+- Test functionality sistem AI-powered health monitoring
+- Assess potensi pasar dan commercial viability
+- Evaluasi scalability teknologi dan kompleksitas implementasi
+- Review compliance privasi dan adherence regulasi
+- Pertimbangkan potensi integrasi dengan portfolio companies
+
+#### 3.2.4. Task 4: Contact Verdant
+
+**Goal:** Inisiasi komunikasi untuk peluang investasi, diskusi partnership, atau proses due diligence.
+
+**Langkah Pelaksanaan:**
+
+- Melengkapi investor inquiry form dengan criteria investasi
+- Spesifikasi area of interest dan kapasitas investasi
+- Request informasi proyek detail dan dokumentasi
+- Schedule consultation meetings dengan tim Verdant
+- Establish communication channels untuk ongoing updates
+
+#### 3.2.5. Task 5: Submit Investment Form
+
+**Goal:** Secara formal mengekspresikan investment interest dan menginisiasi partnership process  
+**Precondition:** Investor telah mengidentifikasi target projects dan completed evaluation
+
+**Langkah Pelaksanaan:**
+
+- Melengkapi comprehensive investor profile dan preferences
+- Spesifikasi criteria investasi, risk tolerance, dan impact goals
 - Submit formal investment expression of interest
-- Provide necessary documentation for verification
-- Participate in due diligence and evaluation process
+- Menyediakan dokumentasi yang diperlukan untuk verifikasi
+- Partisipasi dalam due diligence dan evaluation process
 
-#### **Task 6: Monitor Investment Portfolio**
+#### 3.2.6. Task 6: Monitor Investment Portfolio
 
-**Goal:** Track investment performance, impact metrics, and portfolio development over time.
-**Steps:**
+**Goal:** Track performance investasi, impact metrics, dan pengembangan portfolio dari waktu ke waktu.
 
-- Access investment dashboard and performance metrics
-- Review regular impact reports and financial updates
-- Monitor SDG contribution and environmental benefits
-- Assess portfolio diversification and risk exposure
-- Plan future investment strategies based on performance
+**Langkah Pelaksanaan:**
+
+- Akses investment dashboard dan performance metrics
+- Review regular impact reports dan financial updates
+- Monitor kontribusi SDG dan environmental benefits
+- Assess diversifikasi portfolio dan risk exposure
+- Plan future investment strategies berdasarkan performance
 
 ---
 
-## Use Case Analysis
+## BAB 4. ANALISIS USE CASE
 
-### **Use Case Diagram Summary**
+### 4.1. Diagram Use Case
 
-The use case diagram shows two primary actors (Innovator/Researcher and Investor) interacting with six main use cases within the Verdant platform system:
+#### 4.1.1. Overview Use Case Diagram
 
-1. **Submit Innovation Project** - Exclusively for Innovators
-2. **Browse Platform Information** - Shared by both actors
-3. **Find Investment Opportunity** - Shared by both actors
-4. **Use AI Health Monitoring Demo** - Shared by both actors
-5. **Contact Verdant** - Shared by both actors
-6. **Submit Investment Form** - Exclusively for Investors
+Use case diagram menunjukkan dua primary actors (Innovator/Researcher dan Investor) yang berinteraksi dengan enam main use cases dalam sistem platform Verdant:
 
-### **Use Case Descriptions**
+**Use Cases dan Actor Mapping:**
 
-#### **UC01: Submit Innovation Project**
+1. **Submit Innovation Project** - Khusus untuk Innovators
+2. **Browse Platform Information** - Shared oleh kedua actors
+3. **Find Investment Opportunity** - Shared oleh kedua actors
+4. **Use AI Health Monitoring Demo** - Shared oleh kedua actors
+5. **Contact Verdant** - Shared oleh kedua actors
+6. **Submit Investment Form** - Khusus untuk Investors
+
+#### 4.1.2. Relationship Analysis
+
+- **Association relationships** menghubungkan actors dengan use cases yang dapat mereka akses
+- **Shared use cases** mendemonstrasikan platform sebagai ecosystem yang unified
+- **Exclusive use cases** mencerminkan role-specific functionalities
+
+### 4.2. Deskripsi Use Case
+
+#### 4.2.1. UC01: Submit Innovation Project
 
 **Actor:** Innovator/Researcher  
-**Goal:** Submit sustainable development innovation for evaluation and funding connection  
-**Precondition:** User has registered innovation idea and required documentation  
+**Goal:** Submit sustainable development innovation untuk evaluasi dan funding connection  
+**Precondition:** User memiliki registered innovation idea dan required documentation
+
 **Main Flow:**
 
-1. Innovator accesses innovation submission portal
-2. System displays multi-step submission form
-3. Innovator completes project information including technical specs, SDG impact, budget estimation
-4. System validates form completion and required fields
-5. Innovator uploads supporting documentation and prototypes
-6. System confirms successful submission and provides tracking ID
-7. System initiates evaluation process notification
+1. Innovator mengakses innovation submission portal
+2. System menampilkan multi-step submission form
+3. Innovator melengkapi project information termasuk technical specs, SDG impact, budget estimation
+4. System memvalidasi form completion dan required fields
+5. Innovator mengupload supporting documentation dan prototypes
+6. System mengkonfirmasi successful submission dan menyediakan tracking ID
+7. System menginisiasi evaluation process notification
 
-**Postcondition:** Innovation project is submitted for review and tracking  
-**Alternative Flow:** If validation fails, system displays error messages and allows correction
+**Postcondition:** Innovation project ter-submit untuk review dan tracking  
+**Alternative Flow:** Jika validation gagal, system menampilkan error messages dan memungkinkan correction
 
-#### **UC02: Browse Platform Information**
+#### 4.2.2. UC02: Browse Platform Information
 
 **Actor:** Innovator/Researcher, Investor  
-**Goal:** Understand platform capabilities, mission, and available services  
-**Precondition:** User accesses Verdant platform  
+**Goal:** Memahami platform capabilities, mission, dan available services  
+**Precondition:** User mengakses Verdant platform
+
 **Main Flow:**
 
-1. User navigates to platform overview sections
-2. System displays mission statement, focus areas, and success stories
-3. User browses through services and support offerings
-4. System provides detailed information about processes and criteria
-5. User accesses case studies and track record information
+1. User navigasi ke platform overview sections
+2. System menampilkan mission statement, focus areas, dan success stories
+3. User browse melalui services dan support offerings
+4. System menyediakan detailed information tentang processes dan criteria
+5. User mengakses case studies dan track record information
 
-**Postcondition:** User gains comprehensive understanding of platform capabilities  
-**Alternative Flow:** User can access specific information sections based on their role
+**Postcondition:** User mendapat comprehensive understanding tentang platform capabilities  
+**Alternative Flow:** User dapat mengakses specific information sections berdasarkan role mereka
 
-#### **UC03: Find Investment Opportunity**
+#### 4.2.3. UC03: Find Investment Opportunity
 
 **Actor:** Innovator/Researcher, Investor  
-**Goal:** Identify relevant investment opportunities or funding sources  
-**Precondition:** User has identified their sector interest and criteria  
+**Goal:** Mengidentifikasi relevant investment opportunities atau funding sources  
+**Precondition:** User telah mengidentifikasi sector interest dan criteria mereka
+
 **Main Flow:**
 
-1. User accesses investment opportunity section
-2. System displays current projects and funding opportunities
-3. User applies filters based on sector, amount, and requirements
-4. System shows filtered results with project summaries
-5. User reviews detailed project information and investor profiles
-6. User identifies potential matches for their criteria
+1. User mengakses investment opportunity section
+2. System menampilkan current projects dan funding opportunities
+3. User menerapkan filters berdasarkan sector, amount, dan requirements
+4. System menunjukkan filtered results dengan project summaries
+5. User mereview detailed project information dan investor profiles
+6. User mengidentifikasi potential matches untuk criteria mereka
 
-**Postcondition:** User has identified relevant opportunities for follow-up  
-**Alternative Flow:** If no matches found, system suggests related opportunities
+**Postcondition:** User telah mengidentifikasi relevant opportunities untuk follow-up  
+**Alternative Flow:** Jika tidak ada matches, system menyarankan related opportunities
 
-#### **UC04: Use AI Health Monitoring Demo**
+#### 4.2.4. UC04: Use AI Health Monitoring Demo
 
 **Actor:** Innovator/Researcher, Investor  
-**Goal:** Experience AI technology demonstration for evaluation or learning  
-**Precondition:** User has camera access or images for analysis  
+**Goal:** Experience AI technology demonstration untuk evaluation atau learning  
+**Precondition:** User memiliki camera access atau images untuk analysis
+
 **Main Flow:**
 
-1. User accesses AI health monitoring demonstration page
-2. System loads TensorFlow.js models and initializes detection engine
-3. User selects real-time webcam mode or image upload mode
-4. System performs face detection and mask classification
-5. System displays results with confidence scores and statistics
-6. User reviews accuracy and performance metrics
+1. User mengakses AI health monitoring demonstration page
+2. System memload TensorFlow.js models dan menginisiasi detection engine
+3. User memilih real-time webcam mode atau image upload mode
+4. System melakukan face detection dan mask classification
+5. System menampilkan results dengan confidence scores dan statistics
+6. User mereview accuracy dan performance metrics
 
-**Postcondition:** User has evaluated AI system capabilities and performance  
-**Alternative Flow:** If camera access denied, user can use image upload mode
+**Postcondition:** User telah mengevaluasi AI system capabilities dan performance  
+**Alternative Flow:** Jika camera access ditolak, user dapat menggunakan image upload mode
 
-#### **UC05: Contact Verdant**
+#### 4.2.5. UC05: Contact Verdant
 
 **Actor:** Innovator/Researcher, Investor  
-**Goal:** Establish communication with Verdant team for support or collaboration  
-**Precondition:** User has specific inquiry or collaboration interest  
+**Goal:** Membangun komunikasi dengan Verdant team untuk support atau collaboration  
+**Precondition:** User memiliki specific inquiry atau collaboration interest
+
 **Main Flow:**
 
-1. User accesses contact form page
-2. System displays contact form with inquiry categories
-3. User completes form with detailed inquiry information
-4. System validates form completion and contact details
-5. User submits inquiry form
-6. System confirms submission and provides response timeline
+1. User mengakses contact form page
+2. System menampilkan contact form dengan inquiry categories
+3. User melengkapi form dengan detailed inquiry information
+4. System memvalidasi form completion dan contact details
+5. User submit inquiry form
+6. System mengkonfirmasi submission dan menyediakan response timeline
 
-**Postcondition:** Inquiry is submitted and response process initiated  
-**Alternative Flow:** For urgent inquiries, system provides alternative contact methods
+**Postcondition:** Inquiry ter-submit dan response process terinisiasi  
+**Alternative Flow:** Untuk urgent inquiries, system menyediakan alternative contact methods
 
-#### **UC06: Submit Investment Form**
+#### 4.2.6. UC06: Submit Investment Form
 
 **Actor:** Investor  
-**Goal:** Formally express investment interest and initiate partnership process  
-**Precondition:** Investor has identified target projects and completed evaluation  
+**Goal:** Secara formal mengekspresikan investment interest dan menginisiasi partnership process  
+**Precondition:** Investor telah mengidentifikasi target projects dan completed evaluation
+
 **Main Flow:**
 
-1. Investor accesses investment form portal
-2. System displays comprehensive investor profiling form
-3. Investor completes investment criteria, preferences, and capacity information
-4. System validates investor credentials and documentation
-5. Investor submits formal investment expression of interest
-6. System initiates due diligence and matching process
-7. System provides partnership timeline and next steps
+1. Investor mengakses investment form portal
+2. System menampilkan comprehensive investor profiling form
+3. Investor melengkapi investment criteria, preferences, dan capacity information
+4. System memvalidasi investor credentials dan documentation
+5. Investor submit formal investment expression of interest
+6. System menginisiasi due diligence dan matching process
+7. System menyediakan partnership timeline dan next steps
 
-**Postcondition:** Investment interest is formally recorded and partnership process begins  
-**Alternative Flow:** If verification fails, system requests additional documentation
+**Postcondition:** Investment interest secara formal terecord dan partnership process dimulai  
+**Alternative Flow:** Jika verification gagal, system meminta additional documentation
 
 ---
 
-## Conclusion
+## BAB 5. KESIMPULAN
 
-This User & Task Analysis provides comprehensive foundation for the Verdant platform development, clearly defining two primary user classes (Innovators and Investors) with their specific goals, needs, and interaction patterns. The analysis identifies six core use cases that address the platform's mission of connecting sustainable development stakeholders while providing cutting-edge AI technology demonstration.
+### 5.1. Ringkasan Analisis User & Task
 
-The task analysis reveals that both user types share common information-gathering and evaluation needs, while having distinct action-oriented tasks (innovation submission vs. investment submission). This insight supports the platform's design as an integrated ecosystem that serves multiple stakeholder types effectively.
+User & Task Analysis ini menyediakan foundation komprehensif untuk pengembangan platform Verdant, dengan jelas mendefinisikan dua primary user classes (Innovators dan Investors) beserta specific goals, needs, dan interaction patterns mereka.
 
-The use case analysis demonstrates how the platform facilitates the complete user journey from initial discovery through formal partnership establishment, ensuring comprehensive support for sustainable industrial development in Indonesia.
+Analisis mengidentifikasi enam core use cases yang mengatasi misi platform dalam menghubungkan sustainable development stakeholders sambil menyediakan cutting-edge AI technology demonstration.
+
+### 5.2. Key Insights
+
+**Shared User Journey Elements:**
+Task analysis mengungkapkan bahwa kedua user types memiliki common information-gathering dan evaluation needs, sementara memiliki distinct action-oriented tasks (innovation submission vs. investment submission). Insight ini mendukung design platform sebagai integrated ecosystem yang melayani multiple stakeholder types secara efektif.
+
+**Platform Integration Benefits:**
+Use case analysis mendemonstrasikan bagaimana platform memfasilitasi complete user journey dari initial discovery hingga formal partnership establishment, memastikan comprehensive support untuk sustainable industrial development di Indonesia.
+
+### 5.3. Implikasi untuk Design
+
+Hasil analisis ini akan menjadi dasar untuk pengembangan activity diagrams dan paper prototyping pada tahap TA04, memastikan bahwa design interface benar-benar memenuhi kebutuhan user yang telah teridentifikasi dan mendukung achievement dari goals yang telah didefinisikan dalam setiap use case.
+
+---
+
+**END OF REPORT**
