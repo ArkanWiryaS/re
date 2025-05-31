@@ -2,524 +2,350 @@
 
 ## 1.1 Latar Belakang
 
-### 1.1.1 Konteks Sustainable Development dan Industri 4.0
+Dalam era Industri 4.0 dan transformasi digital yang berkembang pesat, dunia menghadapi tantangan besar dalam mencapai pembangunan berkelanjutan. **Sustainable Development Goals (SDGs)** yang ditetapkan oleh Perserikatan Bangsa-Bangsa menekankan pentingnya inovasi dan pembangunan infrastruktur yang berkelanjutan, khususnya dalam **SDG 9: Industry, Innovation, and Infrastructure**. Target utama SDG 9 mencakup pembangunan infrastruktur yang tangguh, promosi industrialisasi inklusif dan berkelanjutan, serta mendorong inovasi teknologi.
 
-Perkembangan teknologi digital dan revolusi industri 4.0 telah mengubah paradigma pembangunan global, terutama dalam konteks Sustainable Development Goals (SDGs) yang ditetapkan oleh Perserikatan Bangsa-Bangsa. Salah satu target krusial dalam agenda 2030 adalah SDG 9: "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation" (United Nations, 2015). Pencapaian target ini memerlukan kolaborasi yang efektif antara berbagai stakeholder, termasuk inovator, investor, dan institusi pemerintah.
+Namun, terdapat kesenjangan signifikan antara kebutuhan inovasi berkelanjutan dengan platform yang memfasilitasi kolaborasi antara **innovators** dan **investors** dalam ekosistem yang terintegrasi. Banyak inovator, terutama startup teknologi, peneliti kesehatan, dan mahasiswa, memiliki ide-ide revolusioner untuk mengatasi masalah industrial dan kesehatan, namun kesulitan mengakses jaringan investor yang tepat dan platform yang dapat mendemonstrasikan potensi teknologi mereka.
 
-Di era digital saat ini, platform teknologi memainkan peran vital dalam memfasilitasi kolaborasi dan inovasi berkelanjutan. Namun, banyak platform yang ada masih berfokus pada aspek komersial semata, tanpa mempertimbangkan dampak keberlanjutan jangka panjang. Hal ini menciptakan kesenjangan antara kebutuhan akan inovasi berkelanjutan dengan ketersediaan platform yang mendukung ekosistem inovasi yang bertanggung jawab.
+Di sisi lain, investor yang fokus pada **impact investing** dan teknologi berkelanjutan seringkali menghadapi kendala dalam menemukan proyek-proyek inovasi yang sesuai dengan kriteria investasi mereka. Proses **due diligence** dan evaluasi proyek menjadi kompleks karena minimnya platform yang dapat menyajikan informasi komprehensif tentang inovasi, termasuk demonstrasi teknologi secara real-time.
 
-Industri 4.0 yang ditandai dengan integrasi teknologi seperti Internet of Things (IoT), Artificial Intelligence (AI), dan Big Data Analytics, menawarkan peluang besar untuk mengembangkan solusi inovatif yang tidak hanya menguntungkan secara ekonomi, tetapi juga memberikan dampak positif terhadap lingkungan dan masyarakat (Schwab, 2016). Integrasi teknologi AI khususnya dalam monitoring kesehatan industrial telah terbukti dapat meningkatkan efisiensi operasional sambil mengurangi dampak negatif terhadap lingkungan.
+**Artificial Intelligence (AI)** dan **machine learning** telah menunjukkan potensi besar dalam berbagai sektor, terutama dalam **health monitoring** dan **predictive analytics**. Implementasi AI dalam platform digital dapat memberikan nilai tambah yang signifikan, tidak hanya sebagai alat demonstrasi teknologi, tetapi juga sebagai proof of concept untuk aplikasi AI dalam konteks industrial dan kesehatan.
 
-### 1.1.2 Kebutuhan Platform Inovasi Berkelanjutan
+Berdasarkan analisis terhadap platform-platform existing seperti AngelList, Kickstarter, dan berbagai corporate innovation platforms, ditemukan bahwa masih terdapat **gap** dalam hal:
 
-Ekosistem inovasi berkelanjutan memerlukan platform yang dapat menghubungkan berbagai stakeholder dengan tujuan yang sama. Penelitian oleh Porter & Kramer (2011) tentang "Creating Shared Value" menunjukkan bahwa kolaborasi antara inovator dan investor yang berfokus pada sustainability dapat menghasilkan value creation yang lebih berkelanjutan dibandingkan pendekatan tradisional.
+1. **Integrasi teknologi AI** yang dapat didemonstrasikan secara interaktif
+2. **Focus khusus** pada sustainable development dan green technology
+3. **User experience** yang optimal untuk kedua user groups (innovators dan investors)
+4. **Educational component** yang membantu users memahami potensi teknologi AI
+5. **Accessibility** untuk berbagai tingkat technical proficiency
 
-Namun, tantangan utama dalam menciptakan ekosistem seperti ini adalah:
+Mengingat kompleksitas interaksi antara innovators dan investors, serta kebutuhan untuk mendemonstrasikan teknologi AI secara efektif, diperlukan pendekatan **Human-Computer Interaction (HCI)** yang komprehensif dalam pengembangan platform. Prinsip-prinsip **user-centered design**, **usability engineering**, dan **interaction design** menjadi krusial untuk memastikan platform dapat memfasilitasi kedua user groups dengan efektif.
 
-1. **Fragmentasi Informasi**: Inovator sering kesulitan mengakses informasi tentang peluang pendanaan yang sesuai dengan misi sustainability mereka.
-
-2. **Mismatch Ekspektasi**: Investor berkelanjutan memerlukan informasi yang komprehensif tentang dampak lingkungan dan sosial dari proyek inovasi, yang sering tidak tersedia dalam format yang standar.
-
-3. **Lack of Trust**: Kurangnya transparansi dalam proses evaluasi dan monitoring dampak proyek inovasi.
-
-4. **Limited Networking Opportunities**: Minimnya platform yang memfasilitasi networking antara inovator dan investor dengan fokus sustainability.
-
-Platform digital yang dirancang khusus untuk mengatasi tantangan-tantangan ini dapat menjadi katalis dalam percepatan pencapaian SDG 9. Platform tersebut harus mampu menyediakan lingkungan yang transparan, terpercaya, dan efisien untuk kolaborasi antara inovator dan investor.
-
-### 1.1.3 Peran AI dalam Monitoring Kesehatan Industrial
-
-Artificial Intelligence (AI) telah berkembang menjadi teknologi kunci dalam transformasi industri modern. Dalam konteks sustainability, AI dapat berperan sebagai alat monitoring dan prediksi yang membantu industri untuk:
-
-1. **Optimasi Energi**: AI dapat menganalisis pola konsumsi energi dan memberikan rekomendasi untuk efisiensi energi yang lebih baik.
-
-2. **Predictive Maintenance**: Sistem AI dapat memprediksi kebutuhan maintenance peralatan industrial, mengurangi downtime dan waste.
-
-3. **Environmental Impact Assessment**: AI dapat memproses data lingkungan secara real-time untuk assessment dampak operasional terhadap lingkungan.
-
-4. **Health and Safety Monitoring**: Sistem AI dapat memantau kondisi kesehatan dan keselamatan kerja secara kontinyu.
-
-Implementasi AI dalam platform inovasi berkelanjutan dapat memberikan demonstrasi konkret tentang bagaimana teknologi dapat digunakan untuk mendukung sustainability goals. Hal ini tidak hanya memberikan nilai edukatif, tetapi juga membangun kepercayaan stakeholder terhadap potensi teknologi AI dalam mendukung pembangunan berkelanjutan.
-
-### 1.1.4 Gap yang Ada di Pasar Saat Ini
-
-Analisis terhadap platform-platform existing menunjukkan beberapa gap yang signifikan:
-
-#### 1.4.1 Platform Investasi Tradisional
-
-Platform seperti AngelList, Crunchbase, dan sejenisnya fokus pada aspek finansial tanpa mempertimbangkan kriteria sustainability secara komprehensif. Investor yang tertarik pada impact investing sering kesulitan menemukan proyek yang sesuai dengan kriteria ESG (Environmental, Social, Governance) mereka.
-
-#### 1.4.2 Platform Sustainability Existing
-
-Platform seperti UN Global Compact atau CDP (Carbon Disclosure Project) menyediakan framework untuk sustainability reporting, namun tidak menyediakan mekanisme matching antara inovator dan investor. Platform-platform ini lebih berfokus pada compliance dan reporting daripada facilitation collaboration.
-
-#### 1.4.3 Platform Innovation Management
-
-Platform seperti IdeaScale atau Brightidea fokus pada innovation management internal organisasi, bukan pada ecosystem-level collaboration antara multiple stakeholders dengan background yang berbeda.
-
-#### 1.4.4 Keterbatasan Teknologi Demonstrasi
-
-Kebanyakan platform tidak menyediakan demonstrasi teknologi yang interaktif. Investor sering kesulitan memahami potensi teknologi karena terbatasnya cara untuk "experiencing" teknologi tersebut secara langsung.
-
-Gap-gap ini menciptakan peluang untuk mengembangkan platform yang dapat mengintegrasikan semua aspek tersebut dalam satu ecosystem yang coherent dan user-friendly.
+**Platform Verdant** dikembangkan sebagai respons terhadap kebutuhan tersebut, menggabungkan konsep sustainable industrial development dengan AI-powered health monitoring demonstration dalam satu ekosistem digital yang terintegrasi. Platform ini dirancang untuk menjembatani gap antara inovasi teknologi dan investasi berkelanjutan, sambil memberikan pengalaman pengguna yang optimal melalui penerapan prinsip-prinsip HCI modern.
 
 ## 1.2 Rumusan Masalah
 
 ### 1.2.1 Problem Statement Utama
 
-Berdasarkan analisis latar belakang, problem statement utama penelitian ini adalah:
-
-**"Bagaimana merancang dan mengimplementasikan platform digital yang dapat memfasilitasi kolaborasi efektif antara inovator dan investor dalam ekosistem sustainable industrial development, dengan mengintegrasikan teknologi AI sebagai demonstrasi dan alat monitoring kesehatan industrial?"**
-
-Problem statement ini mencakup beberapa dimensi penting:
-
-1. **Design Challenge**: Bagaimana merancang user interface dan user experience yang dapat memenuhi kebutuhan dua user group yang berbeda (innovators dan investors) dalam satu platform.
-
-2. **Collaboration Facilitation**: Bagaimana platform dapat memfasilitasi networking, communication, dan transaction antara stakeholders yang memiliki background dan objectives yang berbeda.
-
-3. **Technology Integration**: Bagaimana mengintegrasikan AI technology demo yang tidak hanya berfungsi sebagai showcase, tetapi juga memberikan value educational dan trust-building.
-
-4. **Sustainability Focus**: Bagaimana memastikan platform mendukung projects dan initiatives yang align dengan sustainable development goals.
+Bagaimana merancang dan mengembangkan platform digital yang dapat **memfasilitasi kolaborasi efektif** antara innovators dan investors dalam ekosistem sustainable development, sambil mengintegrasikan **AI-powered health monitoring demonstration** yang dapat memberikan **user experience** yang optimal untuk kedua user groups?
 
 ### 1.2.2 User Problems yang Ingin Diselesaikan
 
-#### 1.2.1 Problems dari Perspektif Innovators
+#### A. Problems dari Perspektif Innovators:
 
-**A. Information Access Problems:**
+1. **Limited Access to Investors**
 
-- Kesulitan mengakses informasi tentang funding opportunities yang sesuai dengan focus area sustainability
-- Lack of knowledge tentang kriteria yang digunakan investor dalam mengevaluasi sustainability projects
-- Limited access ke network investor yang tertarik pada impact investing
+   - Kesulitan mengidentifikasi dan mengakses investor yang fokus pada sustainable technology
+   - Minimnya platform yang secara khusus menghubungkan innovators dengan impact investors
+   - Proses networking yang tidak efisien dan memakan waktu
 
-**B. Communication Problems:**
+2. **Technology Demonstration Challenges**
 
-- Kesulitan dalam mengkomunikasikan value proposition proyek sustainability kepada investor
-- Lack of standardized format untuk mempresentasikan impact metrics
-- Challenge dalam mendemonstrasikan teknologi kompleks seperti AI kepada non-technical investors
+   - Kesulitan mendemonstrasikan potensi teknologi AI kepada non-technical investors
+   - Keterbatasan dalam menyajikan proof of concept secara interaktif
+   - Minimnya tools untuk real-time technology showcase
 
-**C. Resource Constraints:**
+3. **Project Visibility and Credibility**
+   - Tantangan dalam membangun kredibilitas dan trust dengan investors
+   - Kesulitan dalam menyajikan project impact dan sustainability metrics
+   - Minimnya platform untuk comprehensive project documentation
 
-- Limited resource untuk developing professional pitch materials
-- Lack of access ke mentoring dan guidance dalam business development
-- Insufficient exposure untuk visibility dalam investor community
+#### B. Problems dari Perspektif Investors:
 
-#### 1.2.2 Problems dari Perspektif Investors
+1. **Deal Flow and Discovery Issues**
 
-**A. Deal Flow Problems:**
+   - Kesulitan menemukan high-quality sustainable technology projects
+   - Minimnya filter dan kategorisasi untuk investment opportunities
+   - Inefficient screening process untuk early-stage innovations
 
-- Limited pipeline of high-quality sustainability projects
-- Difficulty in discovering projects yang align dengan investment criteria
-- Lack of systematic way untuk screening projects berdasarkan sustainability metrics
+2. **Due Diligence Complexity**
 
-**B. Due Diligence Challenges:**
+   - Kesulitan mengevaluasi technical feasibility dari AI-based solutions
+   - Minimnya tools untuk risk assessment dan impact measurement
+   - Kompleksitas dalam memahami technology implications
 
-- Insufficient information tentang technical feasibility proyek inovasi
-- Difficulty dalam assessing long-term sustainability impact
-- Lack of standardized metrics untuk comparing sustainability projects
-
-**C. Portfolio Management Issues:**
-
-- Limited visibility terhadap progress dan impact post-investment projects
-- Difficulty dalam monitoring sustainability outcomes
-- Lack of tools untuk tracking portfolio-level impact metrics
+3. **Market Intelligence Gap**
+   - Kurangnya insights tentang emerging trends dalam sustainable technology
+   - Minimnya benchmarking tools untuk investment comparison
+   - Kesulitan dalam portfolio monitoring dan impact tracking
 
 ### 1.2.3 Target Users dan Karakteristiknya
 
-#### 1.2.3.1 Primary User Group 1: Innovators
+#### Primary Users:
 
-**Startup Founders:**
+**1. Innovators:**
 
-- Demographics: Usia 25-45, highly educated, tech-savvy
-- Background: Engineering, science, atau business background dengan passion untuk sustainability
-- Goals: Securing funding, building networks, scaling impact
-- Pain Points: Limited access to investors, complex fundraising process
-- Technology Proficiency: High to very high
+- **Startup Founders** (Tech entrepreneurs usia 21-35 tahun)
+- **Healthcare Professionals** (Dokter, researcher usia 25-45 tahun)
+- **University Students** (Mahasiswa S2/S3 usia 22-28 tahun)
 
-**Healthcare Professionals:**
+**2. Investors:**
 
-- Demographics: Usia 30-50, medical atau health science background
-- Background: Clinical experience dengan interest dalam health technology innovation
-- Goals: Developing solutions untuk health challenges, improving patient outcomes
-- Pain Points: Limited business knowledge, regulation complexity
-- Technology Proficiency: Medium to high
+- **Impact Investors** (Professional investors usia 30-50 tahun)
+- **VC Partners** (Technology-focused VCs usia 35-55 tahun)
+- **Angel Investors** (Individual investors dengan technical background)
 
-**University Students/Researchers:**
+#### Secondary Users:
 
-- Demographics: Usia 20-35, academic background
-- Background: Research experience, theoretical knowledge
-- Goals: Translating research into real-world impact, career development
-- Pain Points: Lack of business experience, limited industry connections
-- Technology Proficiency: High, particularly in specialized domains
+- **Government Agencies** (Policy makers, development agencies)
+- **Research Institutions** (Universities, R&D centers)
+- **General Public** (Individuals interested in sustainable technology)
 
-#### 1.2.3.2 Primary User Group 2: Investors
+### 1.2.4 Scope dan Limitations
 
-**Impact Investors:**
+#### Scope Penelitian:
 
-- Demographics: Usia 35-60, business atau finance background
-- Background: Investment experience dengan focus pada social/environmental impact
-- Goals: Finding profitable investments dengan positive impact
-- Pain Points: Limited deal flow, impact measurement challenges
-- Technology Proficiency: Medium to high
+1. **Platform Development:**
 
-**VC Partners:**
+   - Web-based platform dengan responsive design
+   - Core features: project showcase, AI demo, investor matching
+   - AI health monitoring demonstration using TensorFlow.js
+   - User dashboard dan portfolio management
 
-- Demographics: Usia 30-55, business atau finance background
-- Background: Traditional venture capital dengan growing interest dalam sustainability
-- Goals: Identifying high-growth potential companies dengan sustainable business models
-- Pain Points: Balancing financial returns dengan impact objectives
-- Technology Proficiency: High
+2. **User Experience Design:**
 
-**Angel Investors:**
+   - User interface design untuk dual user groups
+   - Interaction design untuk AI demonstration
+   - Information architecture optimization
+   - Accessibility dan usability optimization
 
-- Demographics: Usia 40-65, successful entrepreneurs atau professionals
-- Background: Business experience, personal wealth
-- Goals: Supporting next generation entrepreneurs, creating positive impact
-- Pain Points: Time constraints, due diligence complexity
-- Technology Proficiency: Medium to high
+3. **Evaluation Methods:**
+   - Heuristic evaluation menggunakan Nielsen's principles
+   - User testing dengan representative users
+   - Quantitative evaluation menggunakan SUS dan UEQ
+   - Qualitative analysis untuk usability insights
 
-### 1.2.4 Scope dan Limitation
+#### Limitations:
 
-#### 1.2.4.1 Research Scope
+1. **Technical Limitations:**
 
-**Functional Scope:**
+   - AI demo menggunakan simulated data (bukan real-time medical data)
+   - Platform prototype fokus pada core functionality
+   - Backend integration terbatas pada demonstration purpose
 
-- Platform design untuk facilitating connection antara innovators dan investors
-- AI health monitoring demo sebagai technology showcase
-- User interface design untuk kedua user groups
-- Basic project submission dan evaluation workflows
-- Information architecture untuk sustainability-focused content
+2. **User Testing Constraints:**
 
-**Technical Scope:**
+   - Sample size terbatas (7 participants)
+   - Testing duration terbatas (academic semester constraints)
+   - Geographic limitation (primarily Indonesian users)
 
-- Frontend web application development
-- AI integration menggunakan TensorFlow.js
-- Responsive design untuk multiple devices
-- Basic security dan privacy considerations
-
-**User Research Scope:**
-
-- Target user analysis dan persona development
-- Usability testing dengan representative users
-- Iterative design improvement berdasarkan user feedback
-
-#### 1.2.4.2 Research Limitations
-
-**Technical Limitations:**
-
-- Prototype-level implementation, bukan full production system
-- Limited backend functionality (focus pada frontend dan UX)
-- Simplified AI implementation untuk demonstration purposes
-- No real financial transaction capabilities
-
-**User Testing Limitations:**
-
-- Limited sample size untuk user testing
-- Geographic limitation (primarily Indonesian users)
-- Time constraint untuk longitudinal studies
-
-**Scope Limitations:**
-
-- Focus pada web platform, no mobile app development
-- Limited integration dengan existing platforms
-- No comprehensive legal atau regulatory compliance
+3. **Scope Constraints:**
+   - Focus pada SDG 9 (Industry, Innovation, Infrastructure)
+   - AI demonstration terbatas pada health monitoring use case
+   - Platform tidak mencakup actual financial transactions
 
 ## 1.3 Tujuan Penelitian
 
 ### 1.3.1 Tujuan Umum
 
-Tujuan umum penelitian ini adalah **mengembangkan platform digital yang user-centered untuk memfasilitasi kolaborasi antara inovator dan investor dalam konteks sustainable industrial development, dengan mengintegrasikan teknologi AI untuk monitoring kesehatan industrial sebagai demonstrasi value proposition platform.**
+Mengembangkan **platform digital berkelanjutan** yang mengintegrasikan prinsip-prinsip **Human-Computer Interaction** untuk memfasilitasi kolaborasi efektif antara innovators dan investors dalam ekosistem sustainable development, dengan mendemonstrasikan **AI-powered health monitoring** sebagai proof of concept teknologi.
 
 ### 1.3.2 Tujuan Khusus
 
-#### 1.3.2.1 Design Objectives
+1. **Menganalisis kebutuhan dan karakteristik users** dari kedua user groups (innovators dan investors) melalui comprehensive user research dan task analysis
 
-1. **Merancang user interface yang intuitif dan efektif** untuk dua user groups yang berbeda (innovators dan investors) dengan mempertimbangkan perbedaan kebutuhan, goals, dan technical proficiency mereka.
+2. **Merancang user interface dan user experience** yang optimal untuk platform dual-purpose menggunakan user-centered design methodology
 
-2. **Mengembangkan information architecture yang optimal** untuk organizing dan presenting informasi tentang sustainability projects, funding opportunities, dan technology demonstrations.
+3. **Mengimplementasikan AI demonstration module** menggunakan TensorFlow.js untuk memberikan interactive technology showcase
 
-3. **Menciptakan user experience yang seamless** dalam proses discovery, evaluation, dan collaboration antara innovators dan investors.
+4. **Mengevaluasi usability dan user experience** platform menggunakan multiple evaluation methods (heuristic evaluation, SUS, UEQ)
 
-#### 1.3.2.2 Technology Integration Objectives
+5. **Mengidentifikasi design principles dan best practices** untuk platform yang melayani multiple user groups dengan technical proficiency yang berbeda
 
-4. **Mengimplementasikan AI technology demo** yang interactive dan educational untuk demonstrasi health monitoring capabilities, menggunakan TensorFlow.js untuk real-time processing.
-
-5. **Mengintegrasikan AI demo dalam overall platform experience** sehingga menjadi value-added feature yang mendukung platform value proposition.
-
-#### 1.3.2.3 User Experience Objectives
-
-6. **Menciptakan platform yang accessible dan inclusive** untuk users dengan berbagai tingkat technical proficiency dan background.
-
-7. **Mengoptimalkan user engagement dan satisfaction** melalui iterative design process berdasarkan user feedback dan usability testing.
-
-#### 1.3.2.4 Evaluation Objectives
-
-8. **Melakukan comprehensive usability evaluation** menggunakan multiple methods (heuristic evaluation, user testing, standardized instruments) untuk validation design effectiveness.
-
-9. **Mengidentifikasi dan prioritizing usability issues** untuk future development iterations.
-
-10. **Mengukur user satisfaction dan acceptance** terhadap platform concept dan implementation.
+6. **Memberikan rekomendasi untuk pengembangan platform** berkelanjutan berdasarkan user feedback dan evaluation results
 
 ### 1.3.3 Manfaat Penelitian
 
-#### 1.3.3.1 Manfaat Akademis
+#### Manfaat Akademis:
 
-**Kontribusi terhadap HCI Field:**
+1. **Kontribusi terhadap HCI Research:**
 
-- Insights tentang designing platforms untuk multi-stakeholder ecosystems
-- Understanding tentang user experience challenges dalam sustainability-focused platforms
-- Metodologi untuk integrating complex technology demonstrations dalam user-friendly interfaces
+   - Insights tentang designing for multiple user groups dengan different technical backgrounds
+   - Best practices untuk AI integration dalam user-facing platforms
+   - Methodology untuk evaluating platforms dengan complex user interactions
 
-**Research Methodology Contributions:**
+2. **Educational Value:**
+   - Case study untuk sustainable technology platform development
+   - Demonstration of iterative design process effectiveness
+   - Real-world application of HCI principles dan methodologies
 
-- Framework untuk evaluating collaborative platforms dengan diverse user groups
-- Best practices untuk conducting user research dalam sustainability domain
-- Approach untuk balancing functional complexity dengan user experience simplicity
+#### Manfaat Praktis:
 
-#### 1.3.3.2 Manfaat Praktis
+1. **Untuk Innovators:**
 
-**For Innovators:**
+   - Platform untuk showcasing sustainable technology innovations
+   - Access to network of impact investors dan funding opportunities
+   - Tools untuk technology demonstration dan project management
 
-- Improved access ke funding opportunities dan investor networks
-- Better tools untuk communicating project value propositions
-- Educational resources tentang investment landscape dalam sustainability
+2. **Untuk Investors:**
 
-**For Investors:**
+   - Streamlined discovery process untuk sustainable technology projects
+   - Risk assessment tools dan impact measurement capabilities
+   - Access to emerging technologies dan market intelligence
 
-- Enhanced deal flow discovery mechanisms
-- Better tools untuk evaluating sustainability projects
-- Improved visibility terhadap emerging technologies dan trends
+3. **Untuk Industry:**
+   - Reference implementation untuk sustainable technology platforms
+   - Best practices untuk AI integration dalam business platforms
+   - Insights untuk platform scalability dan user adoption strategies
 
-**For Sustainability Ecosystem:**
+#### Manfaat Sosial:
 
-- Facilitation of collaboration yang lebih efektif
-- Acceleration of sustainable innovation adoption
-- Creation of transparency dalam impact measurement
+1. **Sustainable Development:**
 
-#### 1.3.3.3 Manfaat Teknologi
+   - Acceleration of SDG 9 achievement melalui technology collaboration
+   - Promotion of sustainable industrial development
+   - Support untuk green technology innovation ecosystem
 
-**AI Integration Insights:**
-
-- Demonstration of AI applications dalam sustainability context
-- User acceptance patterns untuk AI-powered tools
-- Framework untuk implementing educational technology demonstrations
-
-**Platform Development Insights:**
-
-- Technical architecture considerations untuk multi-user platforms
-- Performance optimization strategies untuk interactive AI applications
-- Security dan privacy considerations dalam collaborative platforms
+2. **Knowledge Transfer:**
+   - Educational component untuk AI technology understanding
+   - Capacity building untuk sustainable technology adoption
+   - Community building untuk innovation ecosystem
 
 ## 1.4 Metodologi Penelitian
 
 ### 1.4.1 User-Centered Design Approach
 
-Penelitian ini menggunakan **User-Centered Design (UCD)** sebagai metodologi utama, yang menempatkan user needs dan feedback sebagai central driver dalam semua design decisions. UCD approach dipilih karena:
+Penelitian ini menggunakan **User-Centered Design (UCD)** sebagai metodologi utama, yang menekankan pada pemahaman mendalam tentang users, needs, dan contexts dalam setiap tahap pengembangan platform. UCD approach dipilih karena kompleksitas requirements dari dual user groups yang memiliki goals dan technical backgrounds yang berbeda.
 
-1. **Complex User Requirements**: Platform harus melayani dua user groups yang berbeda dengan needs yang sometimes conflicting
-2. **High Usability Standards**: Success platform bergantung pada user adoption dan satisfaction
-3. **Iterative Improvement Needs**: Complex platform memerlukan multiple iterations berdasarkan real user feedback
+**Tahapan UCD yang diterapkan:**
 
-#### 1.4.1.1 UCD Process Framework
+1. **Understand Context of Use:**
 
-**Discovery Phase:**
+   - User research dan persona development
+   - Task analysis dan use case identification
+   - Context mapping untuk different user scenarios
 
-- User research dan needs analysis
-- Competitive analysis dan market research
-- Stakeholder interviews dan requirements gathering
+2. **Specify Requirements:**
 
-**Design Phase:**
+   - Functional dan non-functional requirements definition
+   - Usability requirements specification
+   - Accessibility requirements identification
 
-- User persona development
-- Information architecture design
-- Wireframing dan prototyping
-- Visual design sistem development
+3. **Design Solutions:**
 
-**Development Phase:**
+   - Information architecture design
+   - Wireframing dan prototyping
+   - Visual design dan interaction design
 
-- Iterative prototyping
-- Technical implementation
-- AI integration dan testing
-
-**Evaluation Phase:**
-
-- Usability testing dengan target users
-- Heuristic evaluation oleh experts
-- Quantitative assessment menggunakan standardized instruments
+4. **Evaluate Against Requirements:**
+   - Heuristic evaluation oleh expert reviewers
+   - User testing dengan representative participants
+   - Quantitative assessment menggunakan standardized metrics
 
 ### 1.4.2 Iterative Design Process
 
-#### 1.4.2.1 Design Iteration Cycles
+**Double Diamond Design Process** diadaptasi untuk memastikan thorough exploration dan focused solution development:
 
-**Cycle 1: Concept Development**
+#### **Discover Phase:**
 
-- Initial user research dan persona development
-- Low-fidelity wireframing dan concept validation
-- Early feedback gathering dari potential users
+- **User Research:** In-depth interviews dengan representative users
+- **Market Analysis:** Competitive analysis dari existing platforms
+- **Technology Assessment:** AI capabilities dan integration possibilities
+- **Stakeholder Mapping:** Identification of key stakeholders dan their needs
 
-**Cycle 2: Prototype Development**
+#### **Define Phase:**
 
-- High-fidelity interactive prototypes
-- Core functionality implementation
-- Initial usability testing
+- **Problem Definition:** Clear articulation of user problems dan platform objectives
+- **User Personas:** Detailed personas untuk each user group
+- **Design Principles:** Core principles untuk guide design decisions
+- **Success Metrics:** Quantifiable metrics untuk platform effectiveness
 
-**Cycle 3: Implementation Refinement**
+#### **Develop Phase:**
 
-- Technical implementation dan AI integration
-- Comprehensive usability testing
-- Interface refinement berdasarkan feedback
+- **Information Architecture:** Site structure dan navigation design
+- **Wireframing:** Low-fidelity layout concepts
+- **Prototyping:** Interactive prototypes untuk user testing
+- **Visual Design:** High-fidelity interface design
 
-**Cycle 4: Final Validation**
+#### **Deliver Phase:**
 
-- Comprehensive evaluation menggunakan multiple methods
-- Final adjustments dan optimization
-- Documentation dan reflection
-
-#### 1.4.2.2 Feedback Integration Methodology
-
-**Continuous User Involvement:**
-
-- Regular user feedback sessions throughout development
-- A/B testing untuk key design decisions
-- User advisory group formation untuk ongoing insights
-
-**Data-Driven Decision Making:**
-
-- Analytics implementation untuk user behavior tracking
-- Quantitative metrics untuk measuring improvement
-- Qualitative feedback analysis untuk deep insights
+- **Implementation:** Frontend development dengan AI integration
+- **Testing:** Comprehensive usability testing dan evaluation
+- **Refinement:** Design improvements berdasarkan user feedback
+- **Documentation:** Comprehensive design documentation
 
 ### 1.4.3 Evaluation Methods yang Digunakan
 
-#### 1.4.3.1 Heuristic Evaluation
+#### **1. Heuristic Evaluation**
 
 **Methodology:**
 
-- Nielsen's 10 Usability Heuristics sebagai evaluation framework
-- Expert evaluators dengan HCI background
-- Systematic evaluation process dengan severity rating
+- **Framework:** Nielsen's 10 Usability Heuristics
+- **Evaluators:** Expert reviewers dengan HCI background
+- **Process:** Independent evaluation followed by consensus discussion
+- **Output:** Severity-rated usability issues dengan improvement recommendations
 
-**Objectives:**
+**Rationale:** Heuristic evaluation dipilih untuk identify usability issues early dalam design process, before expensive user testing. Method ini efektif untuk uncovering systematic usability problems.
 
-- Identifying major usability issues early dalam development
-- Ensuring compliance dengan established usability principles
-- Providing baseline untuk comparison dengan user testing results
+#### **2. User Testing**
 
-#### 1.4.3.2 User Testing
+**Methodology:**
 
-**Participants:**
+- **Participants:** 7 representative users (innovators dan investors)
+- **Tasks:** Realistic scenarios covering core platform functionality
+- **Environment:** Controlled testing environment dengan observation
+- **Data Collection:** Task completion rates, error rates, user satisfaction
 
-- Representative users dari both primary user groups
-- 7 participants total (following usability testing best practices)
-- Diverse backgrounds untuk comprehensive insights
+**Rationale:** User testing memberikan insights tentang actual user behavior dan identifies usability issues yang mungkin tidak terdeteksi dalam heuristic evaluation.
 
-**Testing Protocol:**
+#### **3. System Usability Scale (SUS)**
 
-- Task-based testing scenarios reflecting real-world usage
-- Think-aloud protocol untuk understanding user mental models
-- Observation dan documentation of user behaviors
+**Methodology:**
 
-**Metrics:**
+- **Instrument:** Standardized 10-item SUS questionnaire
+- **Administration:** Post-task completion oleh all participants
+- **Analysis:** Individual scores dan overall platform score calculation
+- **Benchmarking:** Comparison dengan industry standards
 
-- Task completion rates dan efficiency
-- Error rates dan recovery strategies
-- User satisfaction dan subjective feedback
+**Rationale:** SUS memberikan reliable dan valid measure dari overall system usability, memungkinkan benchmarking dengan other systems.
 
-#### 1.4.3.3 Standardized Usability Instruments
+#### **4. User Experience Questionnaire (UEQ)**
 
-**System Usability Scale (SUS):**
+**Methodology:**
 
-- Quantitative assessment of overall usability
-- Benchmark comparison dengan industry standards
-- Statistical validation of user satisfaction
+- **Instrument:** 26-item semantic differential scale
+- **Dimensions:** Attractiveness, Perspicuity, Efficiency, Dependability, Stimulation, Novelty
+- **Analysis:** Dimensional scores dengan benchmark comparison
+- **Integration:** Cross-validation dengan SUS results
 
-**User Experience Questionnaire (UEQ):**
+**Rationale:** UEQ memberikan comprehensive assessment dari user experience quality, complementing SUS dengan detailed dimensional analysis.
 
-- Multi-dimensional assessment covering:
-  - Attractiveness dan visual appeal
-  - Perspicuity dan clarity
-  - Efficiency dan effectiveness
-  - Dependability dan reliability
-  - Stimulation dan engagement
-  - Novelty dan innovation
+### 1.4.4 Research Validation Strategy
 
-#### 1.4.3.4 Mixed-Methods Approach
+#### **Triangulation:**
 
-**Triangulation Strategy:**
+- **Method Triangulation:** Multiple evaluation methods untuk comprehensive assessment
+- **Data Triangulation:** Quantitative dan qualitative data integration
+- **Evaluator Triangulation:** Multiple perspectives dari different stakeholder groups
 
-- Combining quantitative metrics dengan qualitative insights
-- Cross-validation findings across different evaluation methods
-- Comprehensive understanding dari multiple perspectives
+#### **Reliability Measures:**
 
-**Data Integration:**
+- **Internal Consistency:** Cronbach's alpha untuk questionnaire reliability
+- **Inter-rater Reliability:** Agreement measures untuk heuristic evaluation
+- **Test-retest Reliability:** Consistency checks untuk critical measurements
 
-- Statistical analysis untuk quantitative data
-- Thematic analysis untuk qualitative feedback
-- Synthesis untuk actionable design recommendations
+#### **Validity Considerations:**
 
-### 1.4.4 Research Timeline dan Phases
+- **Face Validity:** Expert review dari instruments dan procedures
+- **Content Validity:** Alignment dengan established HCI evaluation practices
+- **Construct Validity:** Theoretical alignment dengan usability dan UX constructs
+- **External Validity:** Generalizability considerations untuk broader population
 
-#### 1.4.4.1 Phase 1: Foundation (Weeks 1-3)
+### 1.4.5 Ethical Considerations
 
-- Literature review dan background research
-- Initial user research dan persona development
-- Competitive analysis dan market research
-- Requirements definition dan scope determination
+#### **Participant Protection:**
 
-#### 1.4.4.2 Phase 2: Design Development (Weeks 4-7)
+- **Informed Consent:** Clear explanation dari research purpose dan participant rights
+- **Confidentiality:** Anonymization dari participant data dan responses
+- **Voluntary Participation:** Right to withdraw tanpa penalty
+- **Data Security:** Secure storage dan handling dari collected data
 
-- Information architecture design
-- Wireframing dan low-fidelity prototyping
-- Visual design system development
-- Initial concept validation
+#### **Research Integrity:**
 
-#### 1.4.4.3 Phase 3: Implementation (Weeks 8-12)
-
-- Technical development dan implementation
-- AI integration dan testing
-- High-fidelity prototype development
-- Initial usability testing
-
-#### 1.4.4.4 Phase 4: Evaluation (Weeks 13-15)
-
-- Comprehensive heuristic evaluation
-- Formal user testing sessions
-- Standardized instrument administration
-- Data analysis dan interpretation
-
-#### 1.4.4.5 Phase 5: Refinement (Weeks 16-17)
-
-- Design improvements berdasarkan evaluation results
-- Final testing dan validation
-- Documentation dan reflection
-
-#### 1.4.4.6 Phase 6: Documentation (Weeks 18-20)
-
-- Comprehensive report preparation
-- Results analysis dan interpretation
-- Recommendations untuk future development
-- Academic presentation preparation
-
-### 1.4.5 Quality Assurance dan Validation
-
-#### 1.4.5.1 Internal Validation
-
-- Regular peer reviews untuk design decisions
-- Code reviews untuk technical implementation
-- Iterative testing throughout development process
-
-#### 1.4.5.2 External Validation
-
-- User feedback integration dari multiple touchpoints
-- Expert consultation untuk complex design challenges
-- Stakeholder validation untuk business requirements
-
-#### 1.4.5.3 Ethical Considerations
-
-- User privacy protection dalam testing sessions
-- Informed consent untuk data collection
-- Anonymization untuk user feedback dan data analysis
+- **Transparent Reporting:** Honest reporting dari results including limitations
+- **Bias Minimization:** Structured protocols untuk reduce researcher bias
+- **Conflict of Interest:** Clear declaration dari any potential conflicts
+- **Reproducibility:** Detailed methodology documentation untuk enable replication
 
 ---
 
-**Summary BAB I:**
-
-BAB I ini telah menyajikan foundation yang komprehensif untuk penelitian platform Verdant, covering context sustainable development, identifikasi clear problems yang ingin diselesaikan, specific objectives yang measurable, dan detailed methodology yang akan memastikan rigorous dan systematic approach dalam pengembangan platform. Chapter ini establishes strong rationale untuk penelitian dan provides roadmap yang jelas untuk execution dan evaluation phases yang akan dibahas dalam chapters selanjutnya.
+**Dengan metodologi yang komprehensif ini, penelitian diharapkan dapat menghasilkan platform yang tidak hanya memenuhi kebutuhan users tetapi juga memberikan kontribusi signifikan terhadap body of knowledge dalam HCI, khususnya dalam designing platforms untuk sustainable technology collaboration.**
