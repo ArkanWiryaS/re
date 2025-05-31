@@ -99,7 +99,6 @@ Bagaimana merancang dan mengembangkan platform digital yang dapat **memfasilitas
    - Web-based platform dengan responsive design
    - Core features: project showcase, AI demo, investor matching
    - AI health monitoring demonstration using TensorFlow.js
-   - User dashboard dan portfolio management
 
 2. **User Experience Design:**
 
